@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="style.css" />
   <script>
     window.onload = function() {
-      fetch('https://ysch0i.github.io/header.html')
+      fetch('https://ysch0i.github.io/header_english.html')
         .then(response => response.text())
         .then(data => {
           document.getElementById('header').innerHTML = data;
@@ -20,7 +20,8 @@
 <br>
 
 
-# 예성 블로그~
+
+# Yeseong's Blog~
 
 
 <div style="display: flex; align-items: flex-start; gap: 20px;">
@@ -31,30 +32,30 @@
   <!-- 오른쪽: 테두리 없는 표 (셀 간의 테두리 제거) -->
   <table style="border-collapse: collapse; font-size: 14px;">
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">이름</td>
-      <td style="padding: 4px 8px; border: none;">최예성 / Yeseong Choi / 崔睿成</td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Name</td>
+      <td style="padding: 4px 8px; border: none;">Yeseong Choi</td>
     </tr>
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">얼굴</td>
-      <td style="padding: 4px 8px; border: none;">왼쪽 혹은 <a href="https://ysch0i.github.io/images/yeseong.jpg">증명사진</a> </td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Portrait</td>
+      <td style="padding: 4px 8px; border: none;">Left or <a href="https://ysch0i.github.io/images/yeseong.jpg">ID picture</a> </td>
     </tr>
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">연락처</td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Contact</td>
       <td style="padding: 4px 8px; border: none;"><a href="mailto:yeseong@kaist.ac.kr">yeseong@kaist.ac.kr</a></td>
     </tr>
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">생일</td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Birth</td>
       <td style="padding: 4px 8px; border: none;">2002.05.08</td>
     </tr>
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">평균 위치</td>
-      <td style="padding: 4px 8px; border: none;">대전</td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Average position</td>
+      <td style="padding: 4px 8px; border: none;">Daejeon, Republic of Korea</td>
     </tr>
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">소속</td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Education</td>
       <td style="padding: 4px 8px; border: none;">
-        2025.03 ~ 한국과학기술원 화학과 박사과정<br>
-        2021.03 - 2025.02 서울대학교 화학부 학사
+        2025.03 ~ PhD Student, Chemistry, Korea Advanced Institute of Science and Technology, Republic of Korea<br>
+        2021.03 - 2025.02 BS, Chemistry, Seoul National University, Republic of Korea
       </td>
     </tr>
   </table>
@@ -64,7 +65,7 @@
 <br>
 
 
-예성 블로그에 오신 것을 환영합니다. 이 블로그는 저의 일상, 관심 분야, 출판물을 담고 있습니다.
+Welcome to Yeseong's blog. This blog contains my daily life, areas of interest, and publications.
 
 
 <br>
