@@ -69,7 +69,7 @@
 
 <br>
 
-<img src="https://ysch0i.github.io/images/namd.pdf" width="600px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/images/namd.pdf" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 <br>
