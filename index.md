@@ -18,8 +18,6 @@
 <div id="header"></div>
 
 
-[[대문]](https://ysch0i.github.io/) $\,$ [[사진]](https://nosy-stew-90d.notion.site/15e7bcd3553280b4b1d4f28154e44174) $\,$ [[글]](https://ysch0i.github.io/post/) $\,$ [[출판물]](https://ysch0i.github.io/publications/) $\,$ [[세미나]](https://ysch0i.github.io/seminar/) $\,$  [[English]](https://ysch0i.github.io/index_english.html)
-
 
 # 예성 블로그~
 
