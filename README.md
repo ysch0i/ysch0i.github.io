@@ -1,1 +1,0 @@
-# ysch0i.github.io
