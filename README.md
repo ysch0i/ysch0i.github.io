@@ -1,1 +1,1 @@
-Welcome to the Yeseong's blog
+Welcome to Yeseong's blog
