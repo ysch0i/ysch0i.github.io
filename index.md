@@ -6,28 +6,63 @@
 
 # 예성 블로그~
 
-내가 보려고 쓰는 블로그
 
-<table border="0">
- <tr>
-    <td><img src="https://ysch0i.github.io/images/yeseong.jpg" width="100" height="100"></td>
-    <td>
-    <li>이름 : 최예성 / Yeseong Choi / 崔睿成
-    <li>얼굴 : 왼쪽</li>
-    <li>연락처 : yeseong@snu.ac.kr</li>
-    <li>생일 : 2002.05.08</li>
-    </td>
- </tr>
-</table>
+<div style="display: flex; align-items: flex-start; gap: 20px;">
+  
+  <!-- 왼쪽: 사진 (테두리 있음) -->
+  <img src="https://ysch0i.github.io/images/yeseong.jpg"  width="150" style="border: 2px solid #ccc; border-radius: 8px;" />
+
+  <!-- 오른쪽: 테두리 없는 표 (셀 간의 테두리 제거) -->
+  <table style="border-collapse: collapse; font-size: 14px;">
+    <tr>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">이름</td>
+      <td style="padding: 4px 8px; border: none;">최예성 / Yeseong Choi / 崔睿成</td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">얼굴</td>
+      <td style="padding: 4px 8px; border: none;">왼쪽</td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">연락처</td>
+      <td style="padding: 4px 8px; border: none;"><a href="mailto:yeseong@kaist.ac.kr">yeseong@kaist.ac.kr</a></td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">생일</td>
+      <td style="padding: 4px 8px; border: none;">2002.05.08</td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">평균 위치</td>
+      <td style="padding: 4px 8px; border: none;">대전</td>
+    </tr>
+    <tr>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">소속</td>
+      <td style="padding: 4px 8px; border: none;">
+        2025.03 ~ 한국과학기술원 화학과 박사과정<br>
+        2021.03 - 2025.02 서울대학교 화학부 학사
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+<img src="https://ysch0i.github.io/images/namd.pdf" width="600px" style="display: block; margin: 0 auto;"/>
+
+<br>
+<br>
+
+---
+
+© 2025 Yeseong Choi. All rights reserved.
 
 
-<img src="https://ysch0i.github.io/images/namd.pdf" width="300px"/>
 
 
 
-<footer>
-    <p>© 2025 Yeseong Choi. All rights reserved.
-</footer>
+
+
+
+
+
 
 </div>
 
