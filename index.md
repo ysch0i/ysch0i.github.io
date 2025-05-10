@@ -1,7 +1,24 @@
-<div style="width: 800px; margin: 0 auto;">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    window.onload = function() {
+      fetch('https://ysch0i.github.io/header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+    };
+  </script>
+</head>
 
 
-[[대문]](https://ysch0i.github.io/) $\,$ [[갤러리]](https://nosy-stew-90d.notion.site/15e7bcd3553280b4b1d4f28154e44174) $\,$ [[글]](https://ysch0i.github.io/research/) $\,$ [[출판물]](https://ysch0i.github.io/research/) $\,$ [[English]](https://ysch0i.github.io/index_english.html)
+<div class="centered-container">
+
+<div id="header"></div>
+
+
+[[대문]](https://ysch0i.github.io/) $\,$ [[사진]](https://nosy-stew-90d.notion.site/15e7bcd3553280b4b1d4f28154e44174) $\,$ [[글]](https://ysch0i.github.io/post/) $\,$ [[출판물]](https://ysch0i.github.io/publications/) $\,$ [[세미나]](https://ysch0i.github.io/seminar/) $\,$  [[English]](https://ysch0i.github.io/index_english.html)
 
 
 # 예성 블로그~
@@ -20,7 +37,7 @@
     </tr>
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">얼굴</td>
-      <td style="padding: 4px 8px; border: none;">왼쪽</td>
+      <td style="padding: 4px 8px; border: none;">왼쪽 혹은 <a href="https://ysch0i.github.io/images/yeseong.jpg">증명사진</a> </td>
     </tr>
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">연락처</td>
@@ -44,6 +61,14 @@
   </table>
 
 </div>
+
+<br>
+
+
+예성 블로그에 오신 것을 환영합니다. 이 블로그는 저의 일상, 관심 분야, 출판물을 담고 있습니다.
+
+
+<br>
 
 <img src="https://ysch0i.github.io/images/namd.pdf" width="600px" style="display: block; margin: 0 auto;"/>
 
