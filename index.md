@@ -1,6 +1,6 @@
 <head>
   <meta charset="UTF-8" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
   <script>
     window.onload = function() {
       fetch('https://ysch0i.github.io/header.html')
