@@ -1,8 +1,8 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <link rel="shortcut icon" href="https://ysch0i.github.io/images/favicon.ico">
-  <link rel="icon" href="https://ysch0i.github.io/images/favicon.ico">
+  <link rel="shortcut icon" href="https://ysch0i.github.io/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://ysch0i.github.io/images/favicon.ico" type="image/x-icon">
   <script>
     window.onload = function() {
       fetch('https://ysch0i.github.io/header.html')
