@@ -65,12 +65,12 @@
 <br>
 
 
-Welcome to Yeseong's blog. This blog contains my daily life, areas of interest, and publications.
+Welcome to Yeseong's blog. This blog contains my daily life and areas of interest.
 
 
 <br>
 
-<img src="https://ysch0i.github.io/images/namd.pdf" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/images/namd.svg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 <br>
