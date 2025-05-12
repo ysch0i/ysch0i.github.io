@@ -53,7 +53,7 @@
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">소속</td>
       <td style="padding: 4px 8px; border: none;">
-        한국과학기술원 화학과 박사과정
+        한국과학기술원 <a href="https://www.m-design-lab.net/">엠디자인 연구실</a>
       </td>
     </tr>
   </table>
