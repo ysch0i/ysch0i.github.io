@@ -53,8 +53,7 @@
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">소속</td>
       <td style="padding: 4px 8px; border: none;">
-        2025.03 ~ 한국과학기술원 화학과 박사과정<br>
-        2021.03 - 2025.02 서울대학교 화학부 학사
+        한국과학기술원 화학과 박사과정
       </td>
     </tr>
   </table>

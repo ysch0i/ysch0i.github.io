@@ -52,10 +52,9 @@
       <td style="padding: 4px 8px; border: none;">Daejeon, Republic of Korea</td>
     </tr>
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">Education</td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Affiliation</td>
       <td style="padding: 4px 8px; border: none;">
-        2025.03 ~ PhD Student, Chemistry, Korea Advanced Institute of Science and Technology, Republic of Korea<br>
-        2021.03 - 2025.02 BS, Chemistry, Seoul National University, Republic of Korea
+        PhD Student, Chemistry, Korea Advanced Institute of Science and Technology
       </td>
     </tr>
   </table>
