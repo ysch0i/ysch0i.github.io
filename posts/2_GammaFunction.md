@@ -12,6 +12,8 @@
   </script>
 </head>
 
+<div class="centered-container">
+
 <div id="header"></div>
 
 <br>
@@ -99,3 +101,6 @@ $$\begin{equation}
 
 
 © 2024 Yeseong Choi. All rights reserved.
+
+
+</div>

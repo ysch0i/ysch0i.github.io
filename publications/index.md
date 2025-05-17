@@ -12,6 +12,8 @@
   </script>
 </head>
 
+<div class="centered-container">
+
 <div id="header"></div>
 
 <br>
@@ -32,3 +34,6 @@
 ---
 
 © 2025 Yeseong Choi. All rights reserved.
+
+
+</div>
