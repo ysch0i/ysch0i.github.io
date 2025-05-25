@@ -76,6 +76,8 @@ Welcome to Yeseong's blog. This blog contains my daily life and areas of interes
 
 ---
 
+Last modified on May 13, 2025
+
 © 2025 Yeseong Choi. All rights reserved.
 
 
