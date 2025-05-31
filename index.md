@@ -77,7 +77,7 @@
 
 2025.05.13 마지막 수정
 
-© 2025 Yeseong Choi. All rights reserved.
+<footer class="site-footer"></footer>
 
 
 
