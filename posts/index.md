@@ -26,6 +26,8 @@
 
 ## 2025
 
+[14.](https://ysch0i.github.io/posts/14) 뭔가 이렇게 6년이 반복될듯
+
 
 <br>
 
