@@ -56,7 +56,7 @@
 
 2024.12.26 최예성 작성
 
-© 2024 Yeseong Choi. All rights reserved.
+<footer class="site-footer"></footer>
 
 
 </div>

@@ -100,7 +100,7 @@ $$\begin{equation}
 2024.05.04 최예성 작성
 
 
-© 2024 Yeseong Choi. All rights reserved.
+<footer class="site-footer"></footer>
 
 
 </div>

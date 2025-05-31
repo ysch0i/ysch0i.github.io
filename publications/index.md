@@ -33,7 +33,7 @@
 
 ---
 
-© 2025 Yeseong Choi. All rights reserved.
+<footer class="site-footer"></footer>
 
 
 </div>

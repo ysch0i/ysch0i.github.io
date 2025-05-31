@@ -35,14 +35,13 @@
 
 [1.](https://ysch0i.github.io/posts/1_Start) 블로그 시작
 
-[0.](https://ysch0i.github.io/posts/0_Contents) 목차
 
 
 <br>
 
 ---
 
-© 2025 Yeseong Choi. All rights reserved.
+<footer class="site-footer"></footer>
 
 
 </div>
