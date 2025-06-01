@@ -10,21 +10,28 @@
 
 우리는 화학을 배울 때 아래 그림과 같은 potential energy surface (PES) 를 자주 접한다.
 
-![From R. A. Marcus (1965).](Marcus%20Theory%20Formalism%201607bcd35532803c954ec61347801b82/as.png)
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/13/images/as.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
+</figure>
 
-From R. A. Marcus (1965).
 
 근데 여기서 $x$축과 $y$축이 정확히 뭘까? 우리는 대략적으로만 알고 있다. $x$축은 reaction coordinate 이고, $y$축은 free energy 이다.
 
 그러나 그것만으로는 부족하다. 실험 또는 계산을 해서 PES를 그리고, PES로부터 원하는 물리량을 끄집어 내기 위해서는 조금 더 정량적인 정의가 필요하다.
 
+<br>
+
 ## 2. Energy Gap Coordinate
 
----
+
 
 모두들 화학 1을 공부할 때 $\ce{NaCl}$이 형성되는 과정의 PES를 본 적이 있을 것이다. 
 
-![From 완자 화학 I.](Marcus%20Theory%20Formalism%201607bcd35532803c954ec61347801b82/%25EC%2599%2584%25EC%259E%2590.png)
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/13/images/%EC%99%84%EC%9E%90.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
+</figure>
 
 From 완자 화학 I.
 

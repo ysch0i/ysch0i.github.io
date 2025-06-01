@@ -1,12 +1,35 @@
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
+  <script>
+    window.onload = function() {
+      fetch('https://ysch0i.github.io/header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+    };
+  </script>
+</head>
+
+<div class="centered-container">
+
+<div id="header"></div>
+
+
+
+<br>
+
+
 # Density Matrix
 
----
+
 
 여러분이 알고 있는 그 density matrix 가 맞나??
 
 ## 1. Partition Function
 
----
+
 
 통계역학을 공부하면서 이런 말을 들어본 적 있을 것이다.
 
@@ -42,9 +65,11 @@ $$
 \begin{align}P = -\left( \frac{\partial F}{\partial V} \right)_{N,T}= \frac{Nk_\text{B}T}{V}\end{align}
 $$
 
+<br>
+
 ## 2. Density Matrix and Operator
 
----
+
 
 Density matrix는 양자 통계역학에서 partition function과 같은 역할을 한다. 즉, 시스템의 density matrix를 알고 있다면 시스템에 대한 모든 걸 아는 것이다. 
 
@@ -142,9 +167,11 @@ $$
 
 얻는다. 즉, $\displaystyle \sum_i w_i = 1$, $w_{i} \geq 0$ 이므로 $w_i$를 system이 $\ket{i}$ state에 있을 확률이라고 해석할 수 있다.
 
+<br>
+
 ## 3. 양자 통계역학
 
----
+
 
 이제 양자 통계역학에서 ensemble을 만드는 방법에 대해 알아보자. (이렇게 해도 되나.. 싶다.) 앞에서 얻은 $w_i$가 system이  $\ket{i}$ state에 있을 확률이라는 사실을 이용한다.
 
@@ -222,9 +249,11 @@ $$
 
 이외에도 density matrix에 대해 더 할말이 많다. 이 글은 여기서 멈추고 density matrix II를 만들어야겠다.
 
+<br>
+
 ## 4. Hartree-Fock
 
----
+
 
 그래도 여긴 화학부라, 많은 분들이 density matrix를 RHF Hartree-Fock의 Roothann Equation에서 처음 접했을 것이다.
 
@@ -276,9 +305,11 @@ $$
 
 식 (40)이랑 식 (45)가 뭔가 비슷하지 않나? 아님 말고.
 
+<br>
+
 ## References
 
----
+
 
 $^1$ R. P. Feynman, *Statistical Mechanics: A Set of Lectures*, 19. printing (Addison-Wesley, Reading, Mass., 1996).
 
@@ -288,6 +319,13 @@ $^3$ Y. Baek, "Statistical Mechanics: Lecture Notes" (2024).
 
 $^4$ Y. Jung, "Applied Computational Chemistry: Lecture Notes" (2023).
 
+<br>
+
 ---
 
 2024.12.26 최예성 작성.
+
+<footer class="site-footer"></footer>
+
+
+</div>
