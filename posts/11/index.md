@@ -49,7 +49,7 @@ $$
 
 $$
 \begin{align}
-\ce{D} + \ce{A} \rightleftarrows \ce{D+} + \ce{A-}
+\text{D} + \text{A} \rightleftarrows \text{D}^+ + \text{A}^-
 \end{align}
 $$
 
