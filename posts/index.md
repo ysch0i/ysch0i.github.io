@@ -32,6 +32,8 @@
 
 ## 2024
 
+[4.](https://ysch0i.github.io/posts/4) Basic Formulas
+
 [3.](https://ysch0i.github.io/posts/3) Potential of an Electrode
 
 [2.](https://ysch0i.github.io/posts/2/GammaFunction) Gamma function
