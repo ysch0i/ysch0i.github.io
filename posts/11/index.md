@@ -66,29 +66,31 @@ $$
 이해를 돕기 위해 일반적인 Marcus 이론의 PES를 살펴보자.
 
 <figure style="text-align: center;">
-  <img src="https://ysch0i.github.io/posts/8/images/2.png" width="700px" style="display: block; margin: 0 auto;" />
-  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From D. J. Griffiths (2018).</figcaption>
+  <img src="https://ysch0i.github.io/posts/11/images/as.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
 </figure>
 
-![From R. A. Marcus (1965).](Marcus%E2%80%93Hush%E2%80%93Chidsey%20Theory%201617bcd355328061821bf6d0812eb9b4/as.png)
-
-From R. A. Marcus (1965).
 
 이처럼 반응물 (왼쪽 PES), 생성물 (오른쪽 PES)에 해당하는 PES가 한개씩 존재하고, 전자전달 속도는 식 (1)로 표현된다.
 
 그러나 전기화학 반응에서의 PES는 아래와 같이 바뀐다.
 
-![From Y. Zeng (2014).](Marcus%E2%80%93Hush%E2%80%93Chidsey%20Theory%201617bcd355328061821bf6d0812eb9b4/asdf.png)
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/11/images/asdf.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From Y. Zeng (2014).</figcaption>
+</figure>
 
-From Y. Zeng (2014).
+
+
 
 전자의 에너지가 연속적이기 때문에 반응물 $(\text{O}_\text{(aq)} + ne^-_\text{(electrode)})$ 에 해당하는 왼쪽 PES가 연속적으로 나타난다. 따라서 각각의 반응물 PES에 대해 $\Delta G^\ddagger$가 달라져 속도상수가 달라지므로 이를 평균해주어야 한다.
 
 이 때, 전자의 에너지에 따라 재배열에너지는 바뀌지 않는다고 가정한다 (PES가 위아래로 평행이동 한다고 가정).
 
+<br>
+
 ## 3. Notation
 
----
 
 Potential of an Electrode 글에서 우리는 퍼텐셜을 아래와 같이 정의했었다.
 
@@ -120,9 +122,11 @@ $$
 
 로 표현된다.
 
+
+<br>
+
 ## 4. Marcus–Hush–Chidsey 이론
 
----
 
 $n=1$ 인 상황을 보도록 하자. 식 (1), (8) 에 의해 전기화학 시스템에서 에너지가 $\mathbf{E}$ 인 전자가 전이될 때 전자전달 속도 상수는
 
@@ -169,9 +173,11 @@ $$
 
 이렇게 우리는 전기화학 시스템에서의 속도 상수를 식 (19)로 얻을 수 있다. 식을 통해 알 수 있듯이 속도 상수는 과전압 $\eta$, $k^\infty (= k(\eta = -\infty))$, 재배열에너지 $\lambda$ 의 함수이다.
 
+
+<br>
+
 ## 4. 도식화
 
----
 
 뭐 여기까지만 해도 상관없지만 재미를 위해 식 (19)를 도식화 해보기로 하자. 
 
@@ -187,9 +193,11 @@ $$
 
 $k$를 표현할 때 Butler-Volmer model을 사용한 경우와 Marcus–Hush–Chidsey 이론을 사용한 경우를 비교해보자.
 
-![내가 Matlab으로 계산함.](Marcus%E2%80%93Hush%E2%80%93Chidsey%20Theory%201617bcd355328061821bf6d0812eb9b4/mhc_fit.png)
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/11/images/mhc_fit.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">내가 Matlab으로 계산함.</figcaption>
+</figure>
 
-내가 Matlab으로 계산함.
 
 오 C. E. D. Chidsey (1991) 에서 봤던 그림이랑 똑같다..!!!
 
@@ -197,9 +205,11 @@ Butler-Volmer model을 사용하면 과전압이 커질 때 전류의 크기가 
 
 또한, Marcus–Hush–Chidsey 이론에서는 Marcus inverted region이 나타나지 않는다.
 
+<br>
+
 ## References
 
----
+
 
 $^1$ R. A. Marcus, “On the Theory of Electron‐Transfer Reactions. VI. Unified Treatment for Homogeneous and Electrode Reactions,” [J. Chem. Phys.](https://doi.org/10.1063/1.1696792) **43**, 679–701 (1965).
 
@@ -208,6 +218,10 @@ $^2$ C. E. D. Chidsey, “Free Energy and Temperature Dependence of Electron Tra
 $^3$ Y. Zeng, R. B. Smith, P. Bai, and M. Z. Bazant, “Simple formula for Marcus–Hush–Chidsey kinetics,” [J. Electroanal. Chem.](https://doi.org/10.1016/j.jelechem.2014.09.038) **735**, 77–83 (2014).
 
 $^4$ A. J. Bard, L. R. Faulkner, and H. S. White, *Electrochemical Methods: Fundamentals and Applications*, Third edition (Wiley, Hoboken, NJ, USA Chichester, West Sussex, UK, 2022).
+
+
+<br>
+
 
 ---
 
