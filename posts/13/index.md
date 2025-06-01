@@ -1,12 +1,35 @@
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
+  <script>
+    window.onload = function() {
+      fetch('https://ysch0i.github.io/header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+    };
+  </script>
+</head>
+
+<div class="centered-container">
+
+<div id="header"></div>
+
+
+
+<br>
+
+
 # Marcus Theory Formalism
 
----
+
 
 여기서 말하고 싶은 것은 Marcus 이론, 더 넓게는 전자전달 이론이 사용하는 일반적인 형식이다. Marcus 이론의 물리적 의미, 해석, 유도는 다른 글에서 다룬다.
 
 ## 1. Potential Energy Surface
 
----
+
 
 우리는 화학을 배울 때 아래 그림과 같은 potential energy surface (PES) 를 자주 접한다.
 
@@ -29,11 +52,11 @@
 모두들 화학 1을 공부할 때 $\ce{NaCl}$이 형성되는 과정의 PES를 본 적이 있을 것이다. 
 
 <figure style="text-align: center;">
-  <img src="https://ysch0i.github.io/posts/13/images/%EC%99%84%EC%9E%90.png" width="550px" style="display: block; margin: 0 auto;" />
-  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
+  <img src="https://ysch0i.github.io/posts/13/images/1.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From 완자 화학 I.</figcaption>
 </figure>
 
-From 완자 화학 I.
+
 
 이때 사용한 reaction coordinate $\xi$ 은 두 입자 사이의 거리 $R$ 이다. 
 
@@ -59,9 +82,11 @@ $$
 
 즉, nuclear coordinate가 동일할 때 생성물과 반응물의 에너지 차이인 vertical energy gap을 reaction coordinate으로 정의하는 것이다.
 
+<br>
+
 ## 3. Free Energy
 
----
+
 
 이제 $y$축을 어떻게 정의하는지 알아보자. 
 
@@ -102,9 +127,11 @@ $$
 
 이게 바로 우리가 찾던 $y$축이다.
 
+<br>
+
 ## 4. Linear Free Energy Relation
 
----
+
 
 근데, 우리가 찾은 $y$축은 신기한 성질을 가지고 있다. 바로 linear free energy relation 이다.
 
@@ -128,13 +155,17 @@ $$
 
 아 그리고 내가 위에서 굳이 언급하진 않았는데, 우리가 구한 PES는 diabatic PES이다. Diabatic picture와 adiabatic picture에 대해 아직 다루지 않아서 이걸 말하기는 애매했다. 추후 별도의 글에서 다룰 예정.
 
-![From J. Blumberger (2015).](Marcus%20Theory%20Formalism%201607bcd35532803c954ec61347801b82/asd.png)
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/13/images/asd.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From J. Blumberger (2015).</figcaption>
+</figure>
 
-From J. Blumberger (2015).
+<br>
+
 
 ## 5. Reorganization Energy
 
----
+
 
 반응물의 재배열에너지는 reaction coordinate이 반응물 평형 상태로부터 생성물 평형 상태로 변할 때 반응물 free energy 차이로 정의한다. 생성물의 재배열에너지도 비슷하게 정의된다.
 
@@ -146,9 +177,11 @@ $$
 
 정의에서 알 수 있듯이, 재배열에너지는 뭔가 free energy curve의 curvature과 연관되어 있을 것 같은 느낌이 든다. 다음 절에서 자세히 알아보자.
 
+<br>
+
 ## 6. Marcus Theory
 
----
+
 
 Marcus 이론에서는 식 (8)에서본 $P(X)$가 Gaussian 분포를 따른다고 가정한다. 왜 이런 가정을 했는지는 이 글에서 다루지 않는다.
 
@@ -174,9 +207,12 @@ $$
 
 결과가 매우 신기하군. 
 
+<br>
+
+
+
 ## References
 
----
 
 $^1$ R. A. Marcus, “Electrostatic Free Energy and Other Properties of States Having Nonequilibrium Polarization. I,” [J. Chem. Phys.](https://doi.org/10.1063/1.1742724) **24**, 979–989 (1956).
 
@@ -190,6 +226,13 @@ $^5$ M. Tachiya, “Relation between the electron-transfer rate and the free ene
 
 $^6$ D. V. Matyushov, “Reorganization energy of electron transfer,” [Phys. Chem. Chem. Phys.](https://doi.org/10.1039/D2CP06072H) **25**, 7589–7610 (2023).
 
+<br>
+
 ---
 
-2024.12.25 최예성 작성.
+2024.12.25 최예성 작성
+
+<footer class="site-footer"></footer>
+
+
+</div>
