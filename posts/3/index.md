@@ -392,7 +392,7 @@ $^2$ A. J. Bard, L. R. Faulkner, and H. S. White, *Electrochemical Methods: Fund
 
 ---
 
-2024.05.06 최예성 작성.
+2024.05.06 최예성 작성
 
 <footer class="site-footer"></footer>
 
