@@ -32,7 +32,11 @@
 
 ## 2024
 
-[11.](https://ysch0i.github.io/posts/10) Marcus–Hush–Chidsey Theory
+[13.](https://ysch0i.github.io/posts/13) Marcus Theory Formalism
+
+[12.](https://ysch0i.github.io/posts/12) Marcus Theory Formalism
+
+[11.](https://ysch0i.github.io/posts/11) Marcus–Hush–Chidsey Theory
 
 [10.](https://ysch0i.github.io/posts/10) Green Function
 

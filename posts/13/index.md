@@ -1,430 +1,188 @@
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <script>
-    window.onload = function() {
-      fetch('https://ysch0i.github.io/header.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        });
-    };
-  </script>
-</head>
-
-<div class="centered-container">
-
-<div id="header"></div>
-
-
-
-<br>
-
-
-# 뭔가 이렇게 6년이 반복될듯
-
-
-7년일수도..
-
-최근 한달간 평균위치를 130 km나 옮기느라 정신이 없었다. 이제 조금 안정을 찾아서 글을 한번 써본다.
-
-요즘 일상:
-
-내가 사는 곳은 화암기숙사이다. 
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0861.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-얘는 특이하게 학교 안에 있지 않고 한 4.5 km 정도 떨어져 있다. 대략 서울대에서 숭실대 정도의 거리이다.
-
-바로 옆에는 대전 국과수가 있다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0933.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-학교에서 먼 만큼 좋은 점도 있는데, 리모델링을 해서 깨끗하고 1인실이다. 
-
-그리고 방이 생각보다 크다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0942.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-화장실도 크다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0944.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-이정도에 20만원이라니. 매우 만족스럽고 기숙사 떨어지지 않는 한 계속 여기에 살 것 같다.
-
-<br>
-
-기상은 주로 8시에 한다. 학부 3,4 학년때 살던곳은 북향이라 일어나는게 개힘들었는데, 여긴 운좋게도 남향이 걸려서 알람 없이도 잘 깬다.
-
-<br>
-
-학교까지는 셔틀을 타고 가야 한다. 4.5 km를 걸어갈 순 없고 주변에 대중교통도 없다.
-
-서울대랑 달리 여기는 셔틀 시간이 정해져 있다. 내가 타는건 8시 50분 직행버스이다. 
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0915.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-학교까지 15분정도 걸린다.
-
-이게 마지막 아침 직행버스라 이거 놓치면 일반버스를 타야 한다. 일반버스는 다른 곳도 경유해서 학교까지 30분정도 걸린다.
-
-<br>
-​
-학교 도착.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0916.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-여기서 조금 걸어가면
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0918.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-내 연구실 건물이 나온다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0919.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-연구실은 기초과학동 안에 있다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0920.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-내 어릴적 꿈은 의사, 변호사, 엔지니어 셋 중 하나였는데 어쩌다 기초과학을 하고 있는지 모르겠다.
-
-<br>
-
-​
-역시나 연구실 불이 켜져있다. 내가 1등이였던 적은 거의 없다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0922.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-아침에 적당히 할거 하다가 월요일 빼곤 오전수업이 있어서 수업을 들으러 간다.
-
-오늘은 역학수업을 듣는다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0934.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-교수님이 특이한 영어를 쓰시는데, 하나도 못알아듣겠다. 영어공부해야지.
-
-<br>
-
-수업 끝나면 점심을 먹는다. 주로 가는 곳은 교수회관.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_4212.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-<img src="https://ysch0i.github.io/posts/13/images/SE-ceea9f20-9909-4dd7-9511-361fbe1efa48.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-가격은 5,500원이고 1,000원 더 내고 추가메뉴를 받을 수 있다. 오늘 추가메뉴는 비빔밥이여서 받았다.
-
-밥은 나쁘지 않다. 제일 좋은 점은 항상 샐러드가 나온다는 점이다. 그리고 자율 배식이라 원하는 만큼 받을 수 있다.
-
-<br>
-
-그리고 연구실로 돌아온다. 
-
-밥 먹고 나면 졸리다. 연구실에 커피머신이 있어서 커피를 한잔 내린다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_4216.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-오늘은 피곤하니 투샷으로 내린다. 나는 라떼가 좋아서 냉장고에 우유를 항상 사둔다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/SE-16653630-826c-43fb-9c5d-6cf625f330d9.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-커피를 마시면서 일을 시작한다. 내 자리는 이렇게 생겼다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0950.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-
-옆자리는 지석선배다. 인형이 가로막고 있어서 잘 안보인다. 인형은 지석선배 생일때 유상선배가 사준거라고 한다.
-
-<br>
-
-앞으로 무슨 연구를 하게될지는 모르겠으나 지금은 소산계를 파고 있다. 양자통계 분야다.
-
-옆자리 지석선배는 계속 양자하고 싶다고 말하면서 분자동역학을 하고 있다. 나도 나중에 MD 해봐야지.
-
-그 옆자리에는 EDL 하시는 선배가 있고, 그 옆자리에는 유상선배가 있다. 유상선배는 전자전달을 한다.
-
-이쪽 방에는 주로 이렇게 4명이 있다.
-
-
-<br>
-
-
-쭉 연구하다가 5시반쯤 되면 배가 고프다. 시계를 쳐다보다가 6시가 되면 저녁을 먹으러 간다.
-
-저녁은 또 교수회관이다. 다른 학식들에 비해 교수회관이 훨씬 좋아서 다른데는 잘 안간다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_4214.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-저녁 사진을 찍은게 없어서 다른날 점심 사진으로 대체한다. 저녁이랑 점심 퀄리티는 비슷하다.
-
-<br>
-
-다시 연구실로 돌아온다.
-
-연구를 계속하다가 8시쯤 되면 슬슬 정리한다. 뭔가 기록할게 있으면 연구노트에 정리하고 오늘 사용한 텀블러를 설거지한다.
-
-그리고 8시에서 9시 사이에 퇴근한다. 
-
-논문 읽거나 펜으로 계산하는 날에는 이때쯤 퇴근하는거 같고, 코딩하는 날에는 조금 더 늦게  퇴근하는 거 같다.
-
-<br>
-
-기숙사까지 가는 야간 직행버스는 9시, 10시, 11시에 있다. 기숙사로 바로 가는 날에는 9시 직행버스를 탄다.
-
-오늘은 기타를 치고 싶어서 학생회관에 갔다. 기타는 일주일에 두세번정도 치러 가는거 같다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/unnamed.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-학생회관 찍은 사진이 없어서 인터넷에서 긁어왔다. 대충 이렇게 생겼고 새로 지었는지 깨끗하다.
-
-여기 안에 악기 연습할 수 있는 공간이 있다. 
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0751_2.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-이렇게 생겼다. 예약하고 사용해야 하는데 사람이 별로 없어서 예약이 어렵진 않다.
-
-다만, 학기 초에는 신입생 분들이 오디션 연습한다고 예약을 많이해서 예약하기 빡셌다.
-
-<br>
-
-사진은 일렉이지만 여기서는 주로 통기타를 친다. 일렉은 셋팅이 조금 귀찮고 소리가 크지도 않아서 그냥 기숙사에서 친다. 방이 커서 그런지 방음이 나쁘지 않은듯 하다.
-
-<br>
-
-기타를 치고나서 11시 셔틀을 타고 기숙사로 돌아온다.
-
-기숙사에서는 일하고 싶지 않아서 종이랑 펜을 없애버렸다. 애플팬슬도 연구실에 두고 다닌다.
-
-<br>
-
-자기 전까지는 넷플릭스를 본다. 요즘 보는건 설국열차다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0965.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-제니퍼 코넬리가 주인공이다. 난 이런 디스토피아가 좋다.
-
-이거 다볼때쯤이면 안도르 시즌2가 시작할 것 같다. 시즌1이 굉장히 좋았어서 기대가 된다.
-
-<br>
-
-넷플릭스 한두편 보고 1시정도에 잔다.
-
-<br>
-
-이렇게 평일이 끝났고 이제 주말.
-
-토요일은 늦잠을 잘 수 있는 유일한 날이다. 한 11시쯤 일어나서 기숙사 식당 메뉴를 본다.
-
-메뉴가 괜찮은 날에는 기숙사 식당에서 간단히 먹는다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0939.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-요종도면 괜찮다.
-
-<br>
-
-별로면 외식을 한다. 평일에는 2주에 한번정도 외식을 하는데 주말엔 외식을 많이 한다.
-
-
-외식하면 이런 것들 먹는다. 숯골원냉면 평양냉면 맛집이다. 날짜를 보니 평일이네.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0932.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-돈까스
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0936.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-돈까스2
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0848.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-콩나물국밥
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0784.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-칼국수
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0786.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-칼국수2
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0750.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-기숙사가 너무 외진곳에 있어서 그런지 배달은 잘 안된다.
-
-<br>
-
-밥은 이렇게 먹고 남는 시간엔 기타를 치거나 넷플릭스를 보거나 놀러간다.
-
-<br>
-
-얼마 전에 아인슈타인 생일을 맞아 국립중앙과학관에서 생일카페를 열길래 놀러갔었다.
-
-나름 소산계를 연구하는데 이쪽 분야의 시작인 아인슈타인의 생일을 무시할 수 없었다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0891.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0895.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-아이들이 많다.
-
-아인슈타인 생일 카페.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0896.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-전구 모양 병에 음료수를 판다. 근데 아인슈타인이랑 전구랑 관련이 있나..?
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0897.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-공연도 봤다.
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0898.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-과학관도 슬적 둘러봤다.
-
-이제 나트륨이라고는 안쓰나보다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0899.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-몰이 뭘까?
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0902.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0901.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-원소들. 저거 다 진짠가?
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0905.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-근데 대체적으로 화학쪽은 별로 재미가 없다. 물리쪽에는 체험할 수 있는 것들이 많아서 재미있어 보이는데.. 애들도 다 물리쪽에 몰려있다.
-
-<br>
-
-일요일도 교회가는거 빼고는 토요일과 똑같다.
-
-<br>
-
-요즘 일상 끝.
-
-마지막은 나다.
-
-
-<img src="https://ysch0i.github.io/posts/13/images/IMG_0889.jpg" width="550px" style="display: block; margin: 0 auto;"/>
-
-<br>
-
-
-<br>
+# Marcus Theory Formalism
 
 ---
 
-2025.03.25 최예성 작성
+여기서 말하고 싶은 것은 Marcus 이론, 더 넓게는 전자전달 이론이 사용하는 일반적인 형식이다. Marcus 이론의 물리적 의미, 해석, 유도는 다른 글에서 다룬다.
 
-<footer class="site-footer"></footer>
+## 1. Potential Energy Surface
 
+---
 
-</div>
+우리는 화학을 배울 때 아래 그림과 같은 potential energy surface (PES) 를 자주 접한다.
+
+![From R. A. Marcus (1965).](Marcus%20Theory%20Formalism%201607bcd35532803c954ec61347801b82/as.png)
+
+From R. A. Marcus (1965).
+
+근데 여기서 $x$축과 $y$축이 정확히 뭘까? 우리는 대략적으로만 알고 있다. $x$축은 reaction coordinate 이고, $y$축은 free energy 이다.
+
+그러나 그것만으로는 부족하다. 실험 또는 계산을 해서 PES를 그리고, PES로부터 원하는 물리량을 끄집어 내기 위해서는 조금 더 정량적인 정의가 필요하다.
+
+## 2. Energy Gap Coordinate
+
+---
+
+모두들 화학 1을 공부할 때 $\ce{NaCl}$이 형성되는 과정의 PES를 본 적이 있을 것이다. 
+
+![From 완자 화학 I.](Marcus%20Theory%20Formalism%201607bcd35532803c954ec61347801b82/%25EC%2599%2584%25EC%259E%2590.png)
+
+From 완자 화학 I.
+
+이때 사용한 reaction coordinate $\xi$ 은 두 입자 사이의 거리 $R$ 이다. 
+
+$$
+\begin{align}\xi = R = |\mathbf{r}_\text{Na} -\mathbf{r}_\text{Cl}| \end{align}
+$$
+
+이처럼 우리는 시스템의 각 입자의 Cartesian coordinate을 통해 reaction coordinate을 정의할 수 있었다.
+
+복잡한 시스템이라고 다를 건 없다. 시스템이 $N$개의 핵을 포함한 경우 다음과 같이 Cartesian coordinate의 함수로 reaction coordinate을 정의한다.
+
+$$
+\begin{align}\xi_\alpha = f_\alpha(\mathbf{r}^N) \,\, (\alpha = 1, 2, \cdots)\end{align}
+$$
+
+여기서 $\alpha$가 붙은 이유는 reaction coordinate을 다차원으로 잡을 수도 있기 때문이다. 이제 우리가 해야할 것은 반응을 편리하게 기술할 수 있는 적절한 $f$를 찾는 것이다.
+
+$f$를 정하는 방법은 수 없이 많지만, 전자전달 이론에서는 일반적으로 아래와 같이 정의되는 energy gap coordinate을 사용한다.
+
+$$
+\begin{align}\xi \stackrel{\text{def}}{=} \Delta E (\mathbf{r}^N) = E_\text{product} (\mathbf{r}^N) - E_\text{reactant}(\mathbf{r}^N)\end{align}
+$$
+
+즉, nuclear coordinate가 동일할 때 생성물과 반응물의 에너지 차이인 vertical energy gap을 reaction coordinate으로 정의하는 것이다.
+
+## 3. Free Energy
+
+---
+
+이제 $y$축을 어떻게 정의하는지 알아보자. 
+
+화학반응을 기술할 때 canonical ensemble $(N,V,T)$ 을 많이 사용하므로, 우리가 자연스럽게 떠올릴 수 있는 free energy는 Helmholtz free energy $F$ 이다. (Gibbs 미안..)
+
+Helmholtz free energy를 구하려면 일단 partition function $Z$ 부터 구해야 하니께... 구해봅시다.
+
+$$
+\begin{align}Z_i = \frac{1}{h^{3N}} \int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, e^{-\beta H_i(\mathbf{r}^N,\mathbf{p}^N)}\end{align}
+$$
+
+첨자 $i$는 상태를 의미한다 (반응물 or 생성물).
+
+여기서 reaction coordinate이 $X$인 애들만 모아보자. Reaction coordinate은 1차원 이므로 $\xi = X$인 nuclear coordinate은 많을 것이다. 그 애들의 partition function을 $Z(X)$라 정의하면,
+
+$$
+\begin{align}Z_i(X) \stackrel{\text{def}}{=} \frac{1}{h^{3N}} \int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, \delta(X-\Delta E (\mathbf{r}^N)) e^{-\beta H_i(\mathbf{r}^N,\mathbf{p}^N)}\end{align}
+$$
+
+를 얻는다. 이로부터 시스템이 $\xi = X$에 있을 확률을 구할 수 있다.
+
+$$
+\begin{align}
+P_i(X) &= \frac{Z_i(X)}{Z(X)} \\&= \frac{\int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, \delta(X-\Delta E (\mathbf{r}^N)) e^{-\beta H_i(\mathbf{r}^N,\mathbf{p}^N)}}{\int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, e^{-\beta H_i(\mathbf{r}^N,\mathbf{p}^N)}} \\&= \braket{\delta(X-\Delta E (\mathbf{r}^N))}\end{align}
+$$
+
+$\braket{}$은 ensemble average를 의미한다. 이제 우리가 원하는 Helmholtz free energy를 구하자. 
+
+$$
+\begin{align}F_i = -k_\text{B}T \ln Z_i\end{align}
+$$
+
+근데 얘는 reaction coordinate의 함수가 아니므로 $y$축으로 쓸 수 없다. 따라서 다음과 같이 reaction coordinate이 $X$인 애들의 Helmholtz free energy $F(X)$ 를 정의하자. 이를 Landau free energy 혹은 free energy function 이라고도 한다.
+
+$$
+\begin{align}F_i(X) &\stackrel{\text{def}}{=} -k_\text{B}T \ln Z_i(X) \\&= -k_\text{B}T \ln P_i(X) + F_i\end{align}
+$$
+
+이게 바로 우리가 찾던 $y$축이다.
+
+## 4. Linear Free Energy Relation
+
+---
+
+근데, 우리가 찾은 $y$축은 신기한 성질을 가지고 있다. 바로 linear free energy relation 이다.
+
+$$
+\begin{align}F_\text{product} (X) = F_\text{reactant} (X) + X\end{align}
+$$
+
+이걸 처음 보면 다들 띠용... 할거다. 이럼 $x$축이랑 $y$축이랑 같은 거 아닌가??? 고민은 일단 뒤로 미루고, 이걸 증명하는건 간단하니 먼저 해보자. 편의상 반응물을 1, 생성물을 2라 쓰겠다.
+
+$$
+\begin{align}Z_2(X) &= \frac{1}{h^{3N}} \int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, \delta(X-\Delta E (\mathbf{r}^N)) e^{-\beta H_2(\mathbf{r}^N,\mathbf{p}^N)} \\&= \frac{1}{h^{3N}} \int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, \delta(X-\Delta E (\mathbf{r}^N)) e^{-\beta (\Delta E(\mathbf{r}^N) + H_1)} \\&= \frac{1}{h^{3N}} \int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, \delta(X-\Delta E (\mathbf{r}^N)) e^{-\beta (X + H_1)} \\&= \frac{e^{-\beta X}}{h^{3N}} \int  \mathrm{d}\mathbf{r}^N\,\mathrm{d}\mathbf{p}^N \, \delta(X-\Delta E (\mathbf{r}^N)) e^{-\beta H_1} \\&= e^{-\beta X} Z_1(X)\end{align}
+$$
+
+$$
+\begin{align}\therefore F_2(X) &= -\frac{1}{\beta} \ln Z_2(X) \\&= -\frac{1}{\beta} \left[ -\beta X + \ln Z_1(X)  \right] \\&= F_1(X) + X\end{align}
+$$
+
+다시 띠용..한 부분으로 돌아오자. 일단 글을 처음부터 끝까지 쭉 다시 읽어보자. 아직도 띠용..이라면 내가 달아놓은 reference들을 읽어보자. 잘 생각해보면 순환논리는 없다. 
+
+그래도 모르겠으면.. 그냥 받아들이시길.
+
+아 그리고 내가 위에서 굳이 언급하진 않았는데, 우리가 구한 PES는 diabatic PES이다. Diabatic picture와 adiabatic picture에 대해 아직 다루지 않아서 이걸 말하기는 애매했다. 추후 별도의 글에서 다룰 예정.
+
+![From J. Blumberger (2015).](Marcus%20Theory%20Formalism%201607bcd35532803c954ec61347801b82/asd.png)
+
+From J. Blumberger (2015).
+
+## 5. Reorganization Energy
+
+---
+
+반응물의 재배열에너지는 reaction coordinate이 반응물 평형 상태로부터 생성물 평형 상태로 변할 때 반응물 free energy 차이로 정의한다. 생성물의 재배열에너지도 비슷하게 정의된다.
+
+반응물 평형 상태, 생성물 평형 상태의 reaction coordinate을 각각 $X_1$, $X_2$ 라 하면,
+
+$$
+\begin{align}\lambda_1 \stackrel{\text{def}}{=} F_1(X_2) - F_1(X_1) \\\lambda_2 \stackrel{\text{def}}{=} F_2(X_1) - F_2(X_2)\end{align}
+$$
+
+정의에서 알 수 있듯이, 재배열에너지는 뭔가 free energy curve의 curvature과 연관되어 있을 것 같은 느낌이 든다. 다음 절에서 자세히 알아보자.
+
+## 6. Marcus Theory
+
+---
+
+Marcus 이론에서는 식 (8)에서본 $P(X)$가 Gaussian 분포를 따른다고 가정한다. 왜 이런 가정을 했는지는 이 글에서 다루지 않는다.
+
+$$
+\begin{align}P_i(X) &= \braket{\delta(X-\Delta E (\mathbf{r}^N))}  \\&\simeq \frac{1}{\sqrt{2\pi\sigma_i^2}}\exp \left[ -(X-X_i)^2 / 2\sigma_i^2  \right]\end{align}
+$$
+
+따라서 free energy는 이차함수의 형태를 가진다.
+
+$$
+\begin{align}F_i(X) = \frac{k_\text{B}T}{2\sigma_i^2}\left(X-X_i\right)^2 + F_i + \frac{k_\text{B}T}{2} \ln 2\pi\sigma_i^2\end{align}
+$$
+
+식 (12), (21), (22), (25)를 연립하면 다음 관계를 얻을 수 있다. 단순 계산이므로 과정은 생략한다.
+
+$$
+\begin{align}\lambda &\stackrel{\text{def}}{=} \lambda_1 = \lambda_2 \\&= \frac{X_1 - X_2}{2} = \frac{1}{2k_\text{B}T}\sigma_i^2\end{align}
+$$
+
+$$
+\begin{align}\Delta F = \frac{X_1 + X_2}{2}\end{align}
+$$
+
+결과가 매우 신기하군. 
+
+## References
+
+---
+
+$^1$ R. A. Marcus, “Electrostatic Free Energy and Other Properties of States Having Nonequilibrium Polarization. I,” [J. Chem. Phys.](https://doi.org/10.1063/1.1742724) **24**, 979–989 (1956).
+
+$^2$ R. A. Marcus, “On the Theory of Oxidation‐Reduction Reactions Involving Electron Transfer. I,” [J. Chem. Phys.](https://doi.org/10.1063/1.1742723) **24**, 966–978 (1956).
+
+$^3$ R. A. Marcus, “On the Theory of Electron‐Transfer Reactions. VI. Unified Treatment for Homogeneous and Electrode Reactions,” [J. Chem. Phys.](https://doi.org/10.1063/1.1696792) **43**, 679–701 (1965).
+
+$^4$ J. Blumberger, “Recent Advances in the Theory and Molecular Simulation of Biological Electron Transfer Reactions,” [Chem. Rev.](https://doi.org/10.1021/acs.chemrev.5b00298) **115**, 11191–11238 (2015).
+
+$^5$ M. Tachiya, “Relation between the electron-transfer rate and the free energy change of reaction,” [J. Phys. Chem.](https://doi.org/10.1021/j100357a005) **93**, 7050–7052 (1989).
+
+$^6$ D. V. Matyushov, “Reorganization energy of electron transfer,” [Phys. Chem. Chem. Phys.](https://doi.org/10.1039/D2CP06072H) **25**, 7589–7610 (2023).
+
+---
+
+2024.12.25 최예성 작성.
