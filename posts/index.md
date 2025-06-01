@@ -32,9 +32,9 @@
 
 ## 2024
 
-[13.](https://ysch0i.github.io/posts/13) Marcus Theory Formalism
+[13.](https://ysch0i.github.io/posts/12) Density Matrix
 
-[12.](https://ysch0i.github.io/posts/12) Density Matrix
+[12.](https://ysch0i.github.io/posts/13) Marcus Theory Formalism
 
 [11.](https://ysch0i.github.io/posts/11) Marcus–Hush–Chidsey Theory
 
