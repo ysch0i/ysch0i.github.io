@@ -41,9 +41,6 @@
 [1.](https://ysch0i.github.io/posts/1/Start) 블로그 시작
 
 
-
-<br>
-
 ---
 
 <footer class="site-footer"></footer>
