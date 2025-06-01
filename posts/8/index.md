@@ -1,22 +1,48 @@
-# Scattering State
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
+  <script>
+    window.onload = function() {
+      fetch('https://ysch0i.github.io/header.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('header').innerHTML = data;
+        });
+    };
+  </script>
+</head>
 
----
+<div class="centered-container">
 
-터널링 연습벽을 보고 생각나서 정리해본다. 
-
-![틀방에 있는 터널링 연습 벽.](Scattering%20State%2015c7bcd35532812ebcd5d1d1673d8745/35393186-1ec4-4888-a678-eb1fa832c866.png)
+<div id="header"></div>
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0861.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 
-틀방에 있는 터널링 연습 벽.
+
+# Scattering State
+
+
+
+터널링 연습벽을 보고 생각나서 정리해본다. 
+
+
+
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/8/images/1.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">틀방에 있는 터널링 연습 벽.</figcaption>
+</figure>
+
+
+
+
 
 ## 1. Scattering vs Bound
 
----
+
 
 Scattering state와 bound state의 정의부터 알아보자. 편의를 위해 1차원에서 설명한다.
 
@@ -28,9 +54,11 @@ $$
 
 이를 그림으로 나타내면 아래와 같다.
 
-![From D. J. Griffiths (2018).](Scattering%20State%2015c7bcd35532812ebcd5d1d1673d8745/Screenshot_2024-12-25_at_19.53.33.png)
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/8/images/2.png" width="700px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From D. J. Griffiths (2018).</figcaption>
+</figure>
 
-From D. J. Griffiths (2018).
 
 즉, bound state에서는 입자가 potential에 trap되어 있어 $x = \pm \infty$에서 입자를 발견할 확률이 0에 수렴하지만, scattering state에서는 그렇지 않다. 
 
@@ -84,11 +112,10 @@ $$
 
 그럼 터널링을 볼 때 왜 scattering state를 사용할까? 물론 bound state에서도 터널링을 볼 수 있지만, bound state는 터널링의 flux를 만들지 못한다. 따라서 터널링을 기술할때에는 scattering state의 도입이 필수적이다. 
 
+<br>
+
 ## 2. Notation
 
----
-
-음 원래 영어로 작성한 문서였어서, 굳이 다 번역하진 않겠다…
 
 Define Hamiltonian.
 
@@ -98,7 +125,7 @@ H = H_0 + V = \frac{p^2}{2m} + V(x)
 \end{align}
 $$
 
-Note that $*p*$ and $*x*$ are operator.
+Note that $p$ and $x$ are operator.
 
 Define eigenstate.
 
@@ -114,13 +141,15 @@ $$
 \end{align}
 $$
 
-Note that momentum of state $\ket{\psi_p}$ is not $*p*$, since it’s not free-particle.
+Note that momentum of state $\ket{\psi_p}$ is not $p$, since it’s not free-particle.
 
 여기서 $V(x)$가 $x = \pm \infty$ 에서 0으로 수렴한다고 가정하자. 아래 그림과 같은 일반적인 터널링 시스템을 상상하면 된다. 
 
-![From 김지환 교수님 양자화학 ppt (2023).](Scattering%20State%2015c7bcd35532812ebcd5d1d1673d8745/Screenshot_2024-12-25_at_20.35.39.png)
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/8/images/3.png" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From 김지환 교수님 양자화학 ppt (2023).</figcaption>
+</figure>
 
-From 김지환 교수님 양자화학 ppt (2023).
 
 그림에서는 입자가 a/b 구역의 경계에서 반사될 확률을 $|r|^2$, 입자가 c 구역으로 투과될 확률을 $|t|^2$으로 설정했었다. 이와 비슷하게 나는 입자가 potential wall의 어디서든 반사되어 $x = -\infty$에 도달할 확률을 $|R|^2$, potential wall을 투과화여 $x = +\infty$에 도달할 확률을 $|T|^2$이라 하겠다. $R$ 과 $T$ 는 당연히 시스템의 총 에너지 $E$의 함수일 것이다. 따라서 boundary condition은 아래와 같이 나타난다. 
 
@@ -140,13 +169,15 @@ $$
 
 where $\phi_p(x) = \braket{x|p}$ (free-particle eigenstate).
 
+<br>
+
 ## 3. Probability Current
 
----
+
 
 이제 우리는 $x=-\infty$ 에서 출발한 입자가 potential wall을 터널링해 $x =+\infty$ 에 도달하는 flux를 보고자 한다.
 
-$*h*$ : Heaviside step function or projection operator.
+$h$ : Heaviside step function or projection operator.
 
 $$
 \begin{equation}
@@ -221,9 +252,9 @@ $$
 \end{align}
 $$
 
-Therefore, $\braket{\psi|F(s)|\psi}$ intependent of $*s*$.
+Therefore, $\braket{\psi|F(s)|\psi}$ intependent of $s$.
 
-Now, let’s pick $*s→\infty*$, by Eq (13)
+Now, let’s pick $s→\infty$, by Eq (13)
 
 $$
 \begin{align}
@@ -234,16 +265,26 @@ $$
 \end{align}
 $$
 
-## References
+<br>
 
----
+## References
 
 $^1$ D. J. Griffiths, and D. F. Schroeter, *Introduction to Quantum Mechanics*, Third edition (Cambridge University Press, Cambridge ; New York, NY, 2018).
 
 $^2$ D. E. Manolopoulos, “Chemical Reaction Dynamics,” [David Manolopoulos Research Group: Chemical Dynamics](http://manolopoulos.chem.ox.ac.uk/) (2008).
+
+
+<br>
+
 
 ---
 
 2024.11.13 최예성 작성
 
 2024.12.25 rev1
+
+
+<footer class="site-footer"></footer>
+
+
+</div>

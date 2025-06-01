@@ -34,6 +34,8 @@
 
 [9.](https://ysch0i.github.io/posts/9) Fermi’s Golden Rule II
 
+[8.](https://ysch0i.github.io/posts/8) Scattering State
+
 [7.](https://ysch0i.github.io/posts/7) Born–Oppenheimer Approximation
 
 [6.](https://ysch0i.github.io/posts/6) Fermi’s Golden Rule I

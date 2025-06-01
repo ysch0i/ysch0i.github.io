@@ -53,7 +53,7 @@ $$
 
 그러나, 금속 A랑 금속 B를 접촉시킨 후 A와 B 사이의 전위차를 측정하면 $\Delta V =0$ 으로 측정될 것이다. 따라서 $\Delta V \neq \Delta\phi$ 이다.
 
-<p align="center">
+<figure style="text-align: center;">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="213pt" height="137pt" viewBox="0 0 213 137" version="1.1">
 <defs>
 <g>
@@ -254,10 +254,11 @@ $$
 <path style="fill:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(30%,0%,30%);stroke-opacity:1;stroke-miterlimit:10;" d="M 147.999219 48.000781 L 195.999219 48.000781 " transform="matrix(1,0,0,-1,0.2,136.2)"/>
 </g>
 </svg>
-<br> From Volta potential, 
-  <a href="https://en.wikipedia.org/wiki/Work_function">Wikipedia</a> (2024, May 6)
-  
-</p>
+<figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From Volta potential, 
+  <a href="https://en.wikipedia.org/wiki/Work_function">Wikipedia</a> (2024, May 6)</figcaption>
+
+</figure>
+
 
 그러면, 우리가 전압계로 측정하는 $\Delta V$ 는 뭘까? 위의 예시에서 유추할 수 있듯이, 우리는 두 금속의 Fermi level 차이를 측정하는 것이다.
 
