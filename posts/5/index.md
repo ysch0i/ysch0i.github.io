@@ -23,7 +23,7 @@
 
 
 
-# Time-dependent Pertubation Theory
+# Time-dependent Pertubation
 
 Quantum dynamics의 시작
 
