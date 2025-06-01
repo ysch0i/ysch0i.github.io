@@ -32,6 +32,8 @@
 
 ## 2024
 
+[11.](https://ysch0i.github.io/posts/10) Marcus–Hush–Chidsey Theory
+
 [10.](https://ysch0i.github.io/posts/10) Green Function
 
 [9.](https://ysch0i.github.io/posts/9) Fermi’s Golden Rule II
