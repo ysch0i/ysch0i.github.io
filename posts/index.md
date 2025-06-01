@@ -32,6 +32,12 @@
 
 ## 2024
 
+[9.](https://ysch0i.github.io/posts/9) Fermi’s Golden Rule II
+
+[7.](https://ysch0i.github.io/posts/7) Born–Oppenheimer Approximation
+
+[6.](https://ysch0i.github.io/posts/6) Fermi’s Golden Rule I
+
 [5.](https://ysch0i.github.io/posts/5) Time-dependent Pertubation
 
 [4.](https://ysch0i.github.io/posts/4) Basic Formulas
