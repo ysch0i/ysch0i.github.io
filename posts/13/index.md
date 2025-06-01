@@ -49,7 +49,7 @@
 
 
 
-모두들 화학 1을 공부할 때 $\ce{NaCl}$이 형성되는 과정의 PES를 본 적이 있을 것이다. 
+모두들 화학 1을 공부할 때 $\text{NaCl}$이 형성되는 과정의 PES를 본 적이 있을 것이다. 
 
 <figure style="text-align: center;">
   <img src="https://ysch0i.github.io/posts/13/images/1.png" width="550px" style="display: block; margin: 0 auto;" />
