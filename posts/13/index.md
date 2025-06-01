@@ -33,7 +33,7 @@
 내가 사는 곳은 화암기숙사이다. 
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0861.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0861.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -43,7 +43,7 @@
 바로 옆에는 대전 국과수가 있다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0933.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0933.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -51,13 +51,13 @@
 
 그리고 방이 생각보다 크다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0942.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0942.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 화장실도 크다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0944.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0944.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -73,7 +73,7 @@
 
 서울대랑 달리 여기는 셔틀 시간이 정해져 있다. 내가 타는건 8시 50분 직행버스이다. 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0915.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0915.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -87,13 +87,13 @@
 학교 도착.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0916.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0916.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 여기서 조금 걸어가면
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0918.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0918.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -101,14 +101,14 @@
 내 연구실 건물이 나온다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0919.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0919.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 
 연구실은 기초과학동 안에 있다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0920.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0920.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -120,7 +120,7 @@
 ​
 역시나 연구실 불이 켜져있다. 내가 1등이였던 적은 거의 없다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0922.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0922.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -129,7 +129,7 @@
 오늘은 역학수업을 듣는다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0934.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0934.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -141,11 +141,11 @@
 수업 끝나면 점심을 먹는다. 주로 가는 곳은 교수회관.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_4212.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_4212.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
-<img src="https://ysch0i.github.io/posts/14/images/SE-ceea9f20-9909-4dd7-9511-361fbe1efa48.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/SE-ceea9f20-9909-4dd7-9511-361fbe1efa48.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -161,20 +161,20 @@
 밥 먹고 나면 졸리다. 연구실에 커피머신이 있어서 커피를 한잔 내린다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_4216.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_4216.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 오늘은 피곤하니 투샷으로 내린다. 나는 라떼가 좋아서 냉장고에 우유를 항상 사둔다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/SE-16653630-826c-43fb-9c5d-6cf625f330d9.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/SE-16653630-826c-43fb-9c5d-6cf625f330d9.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 커피를 마시면서 일을 시작한다. 내 자리는 이렇게 생겼다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0950.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0950.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -201,7 +201,7 @@
 저녁은 또 교수회관이다. 다른 학식들에 비해 교수회관이 훨씬 좋아서 다른데는 잘 안간다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_4214.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_4214.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -224,7 +224,7 @@
 오늘은 기타를 치고 싶어서 학생회관에 갔다. 기타는 일주일에 두세번정도 치러 가는거 같다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/unnamed.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/unnamed.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -233,7 +233,7 @@
 여기 안에 악기 연습할 수 있는 공간이 있다. 
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0751_2.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0751_2.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -256,7 +256,7 @@
 
 자기 전까지는 넷플릭스를 본다. 요즘 보는건 설국열차다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0965.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0965.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -278,7 +278,7 @@
 메뉴가 괜찮은 날에는 기숙사 식당에서 간단히 먹는다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0939.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0939.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -293,41 +293,41 @@
 외식하면 이런 것들 먹는다. 숯골원냉면 평양냉면 맛집이다. 날짜를 보니 평일이네.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0932.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0932.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 돈까스
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0936.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0936.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 돈까스2
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0848.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0848.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 콩나물국밥
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0784.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0784.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 칼국수
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0786.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0786.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 칼국수2
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0750.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0750.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -343,11 +343,11 @@
 
 나름 소산계를 연구하는데 이쪽 분야의 시작인 아인슈타인의 생일을 무시할 수 없었다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0891.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0891.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0895.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0895.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -355,19 +355,19 @@
 
 아인슈타인 생일 카페.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0896.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0896.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 전구 모양 병에 음료수를 판다. 근데 아인슈타인이랑 전구랑 관련이 있나..?
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0897.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0897.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 공연도 봤다.
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0898.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0898.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -377,25 +377,25 @@
 이제 나트륨이라고는 안쓰나보다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0899.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0899.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 
 몰이 뭘까?
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0902.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0902.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0901.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0901.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
 원소들. 저거 다 진짠가?
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0905.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0905.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
@@ -413,7 +413,7 @@
 마지막은 나다.
 
 
-<img src="https://ysch0i.github.io/posts/14/images/IMG_0889.jpg" width="550px" style="display: block; margin: 0 auto;"/>
+<img src="https://ysch0i.github.io/posts/13/images/IMG_0889.jpg" width="550px" style="display: block; margin: 0 auto;"/>
 
 <br>
 
