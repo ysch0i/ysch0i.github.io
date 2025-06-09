@@ -26,10 +26,3 @@ a:active {
   font-size: 0.9em;
   color: #888;
 }
-
-iframe[data-cusdis-iframe] {
-  height: 1000px !important;
-  overflow: visible !important;
-  width: 100% !important;
-  border: none;
-}
