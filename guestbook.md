@@ -10,6 +10,14 @@
         });
     };
   </script>
+  <style>
+    iframe[data-cusdis-iframe] {
+      height: 1000px !important; /* 댓글 수에 따라 조절 */
+      overflow: visible !important;
+      width: 100% !important;
+      border: none;
+    }
+  </style>
 </head>
 
 <div class="centered-container">
@@ -31,18 +39,6 @@
   data-page-title="Guestbook"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
-
-<script>
-    window.addEventListener('message', function (event) {
-      if (event.origin !== 'https://cusdis.com') return;
-      if (typeof event.data === 'object' && event.data.event === 'cusdis-height-change') {
-        const iframe = document.querySelector('iframe[data-cusdis-iframe]');
-        if (iframe) {
-          iframe.style.height = event.data.data + 'px';
-        }
-      }
-    });
-  </script>
 
 
 
