@@ -34,15 +34,16 @@
 
 
 <script>
-  window.addEventListener("message", function (event) {
-    if (event.origin !== "https://cusdis.com") return;
-    if (event.data && event.data.type === "cusdis-height") {
-      const iframe = document.querySelector('#cusdis_thread iframe');
-      if (iframe) {
-        iframe.style.height = event.data.height + "px";
-      }
+window.addEventListener('load', function () {
+    let iframe = document.querySelector("#cusdis_thread iframe");
+    if (iframe) {
+        let observer = new MutationObserver(() => {
+            let scrollHeight = iframe.contentWindow.document.body.scrollHeight;
+            iframe.style.height = scrollHeight + "px";
+        });
+        observer.observe(iframe.contentWindow.document.body, { childList: true, subtree: true });
     }
-  });
+});
 </script>
 
 
