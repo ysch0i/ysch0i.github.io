@@ -45,15 +45,3 @@
 
 
 
-
-
-
-
-<br>
-
----
-
-<footer class="site-footer"></footer>
-
-
-</div>
