@@ -163,6 +163,17 @@
   data-page-title="Guestbook"
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
+<script>
+  window.addEventListener("message", function (event) {
+    if (event.origin !== "https://cusdis.com") return;
+    if (event.data && event.data.type === "cusdis-height") {
+      const iframe = document.querySelector('#cusdis_thread iframe');
+      if (iframe) {
+        iframe.style.height = event.data.height + "px";
+      }
+    }
+  });
+</script>
 <br>
 <hr>
 <footer class="site-footer"></footer>
