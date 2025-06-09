@@ -26,9 +26,9 @@ a:active {
   font-size: 0.9em;
   color: #888;
 }
-iframe[data-cusdis-iframe] {
-  overflow: hidden !important;
-  height: 1000px !important;  /* 높이는 충분히 크게 유지하세요 */
+div#cusdis_thread iframe {
+  height: 1500px !important;
   width: 100% !important;
-  border: none;
+  border: none !important;
+  overflow: hidden !important;
 }
