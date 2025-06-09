@@ -3,13 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <title>방명록</title>
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
+
+  <!-- Cusdis iframe 스타일 직접 지정 -->
   <style>
-    /* 스크롤바 제거 */
     html, body {
-      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      overflow-x: hidden; /* 가로 스크롤 숨김 */
+    }
+
+    .centered-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    iframe[data-cusdis-iframe] {
+      height: 1200px !important; /* 댓글 수에 따라 조정 가능 */
+      width: 100% !important;
+      border: none;
+      overflow: hidden !important;
     }
   </style>
+
+  <!-- header.html 불러오기 -->
   <script>
     window.onload = function() {
       fetch('https://ysch0i.github.io/header.html')
@@ -20,24 +38,29 @@
     };
   </script>
 </head>
+
 <body>
   <div class="centered-container">
+    <!-- 헤더 영역 -->
     <div id="header"></div>
 
     <br>
+
+    <!-- 제목 -->
     <h1>방명록</h1>
 
+    <!-- Cusdis 댓글 영역 -->
     <div id="cusdis_thread"
-  data-host="https://cusdis.com"
+      data-host="https://cusdis.com"
   data-app-id="ba6ab1bb-9ca6-4f9e-aa64-20655316acce"
   data-page-id="guestbook"
   data-page-url="https://ysch0i.github.io/guestbook"
   data-page-title="Guestbook"
-></div>
+     ></div>
+
     <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
-    <br>
-    <hr>
+    <br><hr>
     <footer class="site-footer"></footer>
   </div>
 </body>
