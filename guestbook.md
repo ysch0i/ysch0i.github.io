@@ -32,6 +32,17 @@
 ></div>
 <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 
+<script>
+    window.addEventListener('message', function (event) {
+      if (event.origin !== 'https://cusdis.com') return;
+      if (typeof event.data === 'object' && event.data.event === 'cusdis-height-change') {
+        const iframe = document.querySelector('iframe[data-cusdis-iframe]');
+        if (iframe) {
+          iframe.style.height = event.data.data + 'px';
+        }
+      }
+    });
+  </script>
 
 
 
