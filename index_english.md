@@ -1,23 +1,15 @@
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <script>
-    window.onload = function() {
-      fetch('https://ysch0i.github.io/header_english.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        });
-    };
-  </script>
-</head>
-
-
+<link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
 <div class="centered-container">
-
 <div id="header"></div>
-
+<script>
+  fetch('https://ysch0i.github.io/header_english.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
 <br>
+
 
 
 
