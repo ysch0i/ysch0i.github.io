@@ -41,7 +41,7 @@
     </tr>
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">Contact</td>
-      <td style="padding: 4px 8px; border: none;"><a href="mailto:yeseong@kaist.ac.kr">yeseong@kaist.ac.kr</a></td>
+      <td style="padding: 4px 8px; border: none;"><a href="mailto:yeseong@snu.ac.kr">yeseong@snu.ac.kr</a></td>
     </tr>
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">Birth</td>
