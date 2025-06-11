@@ -13,6 +13,8 @@
 
 # 제목
 
+<div id="utterances-comments"></div>
+
 내용을 써보자.
 
 
@@ -44,5 +46,4 @@
       document.getElementById('footer').innerHTML = html;
     });
 </script>
-<div id="utterances-comments"></div>
 </div>
