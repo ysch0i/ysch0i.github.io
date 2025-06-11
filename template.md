@@ -13,23 +13,7 @@
 
 # 제목
 
-<div id="utterances-comments"></div>
-
 내용을 써보자.
-
-
-<script>
-  const utterancesScript = document.createElement('script');
-  utterancesScript.src = 'https://utteranc.es/client.js';
-  utterancesScript.repo = 'ysch0i/ysch0i.github.io';
-  utterancesScript.setAttribute('issue-term', 'pathname');
-  utterancesScript.setAttribute('theme', 'github-light');
-  utterancesScript.setAttribute('label', 'comment');
-  utterancesScript.crossOrigin = 'anonymous';
-  utterancesScript.async = true;
-
-  document.getElementById('utterances-comments').appendChild(utterancesScript);
-</script>
 
 
 <script src="https://utteranc.es/client.js"
