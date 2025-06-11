@@ -70,9 +70,9 @@ Welcome to Yeseong's blog. This blog contains my daily life and areas of interes
 
 Last modified on May 13, 2025
 
-<p style="text-align:center; font-size:0.9em; color:#888;">
+<div class="ssite-footer" style="text-align:center; font-size:0.9em; color:#888; display:block;">
   © 2025 Yeseong Choi. All rights reserved.
-</p>
+</div>
 
 
 </div>
