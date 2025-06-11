@@ -1,9 +1,6 @@
 <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-
 <div class="centered-container">
-
 <div id="header"></div>
-
 <script>
   fetch('https://ysch0i.github.io/header.html')
     .then(res => res.text())
@@ -11,9 +8,7 @@
       document.getElementById('header').innerHTML = data;
     });
 </script>
-
 <br>
-
 
 # 예성 블로그~
 
@@ -75,14 +70,6 @@
 <p style="text-align:center; font-size:0.9em; color:#888;">
   © 2025 Yeseong Choi. All rights reserved.
 </p>
-
-
-
-
-
-
-
-
 
 </div>
 
