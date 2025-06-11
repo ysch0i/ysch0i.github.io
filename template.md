@@ -39,5 +39,4 @@
       document.getElementById('footer').innerHTML = html;
     });
 </script>
-<div id="utterances-comments"></div>
 </div>
