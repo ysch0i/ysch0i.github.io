@@ -67,9 +67,9 @@
 
 2025.05.13 마지막 수정
 
-<p style="text-align:center; font-size:0.9em; color:#888;">
+<div class="site-footer" style="text-align:center; font-size:0.9em; color:#888; display:block;">
   © 2025 Yeseong Choi. All rights reserved.
-</p>
+</div>
 
 </div>
 
