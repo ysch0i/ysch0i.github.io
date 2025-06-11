@@ -48,7 +48,7 @@
       <td style="padding: 4px 8px; border: none;">2002.05.08</td>
     </tr>
     <tr>
-      <td style="padding: 4px 8px; font-weight: bold; border: none;">Average position</td>
+      <td style="padding: 4px 8px; font-weight: bold; border: none;">Average location</td>
       <td style="padding: 4px 8px; border: none;">Daejeon, Republic of Korea</td>
     </tr>
     <tr>
