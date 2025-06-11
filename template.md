@@ -21,6 +21,14 @@
 ---
 
 2025.06.11 최예성 작성
+<script src="https://utteranc.es/client.js"
+        repo="ysch0i/ysch0i.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 <div id="footer"></div>
 <script>
   fetch('https://ysch0i.github.io/footer.html')
