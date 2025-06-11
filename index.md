@@ -32,7 +32,7 @@
   <table style="border-collapse: collapse; font-size: 14px;">
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">이름</td>
-      <td style="padding: 4px 8px; border: none;">최예성 / Yeseong Choi / 崔睿成</td>
+      <td style="padding: 4px 8px; border: none;">최예성 / Yeseong Choi / 崔睿成 / <a href="https://orcid.org/0009-0004-7409-1352" target="_blank">0009-0004-7409-1352</a></td>
     </tr>
     <tr>
       <td style="padding: 4px 8px; font-weight: bold; border: none;">얼굴</td>
