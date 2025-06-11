@@ -27,6 +27,19 @@
 
 ---
 
+
+<div id="footer"></div>
+
+<script>
+  fetch('https://ysch0i.github.io/footer.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    });
+</script>
+
+
+
 <footer class="site-footer"></footer>
 
 
