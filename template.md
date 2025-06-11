@@ -15,14 +15,6 @@
 
 내용을 써보자.
 
-<script src="https://utteranc.es/client.js"
-        repo="ysch0i/ysch0i.github.io"
-        issue-term="pathname"
-        label="Comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 
 <br>
 
