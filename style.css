@@ -19,13 +19,6 @@ a:active {
   margin: 0 auto;
 }
 
-iframe.utterances-frame {
-  display: none !important;
-  height: 0 !important;
-  margin: 0 !important;
-  padding: 0 !important;
-  border: none !important;
-}
 
 .site-footer::before {
   content: "© 2025 Yeseong Choi. All rights reserved.";
@@ -33,4 +26,12 @@ iframe.utterances-frame {
   text-align: center;
   font-size: 0.9em;
   color: #888;
+}
+
+iframe.utterances-frame {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
 }
