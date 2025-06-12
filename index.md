@@ -67,9 +67,14 @@
 
 2025.05.13 마지막 수정
 
-<div class="ssite-footer" style="text-align:center; font-size:0.9em; color:#888; display:block;">
-  © 2025 Yeseong Choi. All rights reserved.
-</div>
+<div id="footer"></div>
+<script>
+  fetch('https://ysch0i.github.io/footer.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    });
+</script>
 
 </div>
 
