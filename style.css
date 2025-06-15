@@ -28,6 +28,16 @@ a:active {
   color: #888;
 }
 
+pre code {
+    background-color: #f0f0ff;  
+    color: #333;               
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    overflow-x: auto;
+}
+
+
 /*
 iframe.utterances-frame {
   display: none !important;
