@@ -20,13 +20,13 @@ Density matrix III도 써야할 듯.
 양자역학에서 ensemble이란 incoherent한 상태의 superposition이다. 우리는 [density matrix I](https://ysch0i.github.io/posts/12)에서 phase randomize (postulate of random phases)를 통해 ensemble을 만들 수 있다는 것을 알았다. 즉, 
 
 $$
-\begin{align}\psi &= \sum_n c_n \ket{\phi_n}\end{align}
+\begin{align}\ket{\psi} &= \sum_n c_n \ket{\phi_n}\end{align}
 $$
 
 에서 $\ket{\phi_n}$ 들을 dephasing 시켜 ensemble을 만든다. 여기서 $\ket{\phi_n}$는 Hamiltonian의 eigenstate이다. 
 
 
-근데, 식 (1) 처럼만 쓰면 $\ket{\phi_n}$들이 coherent state인지, incoherent state 인지 알 방법이 없다. 일반적으로 식 (1) 같이 쓰면 $\ket{\phi_n}$들은 coherent state이여서 $\psi$는 coherent state 의 superposition이 된다. 따라서 ensemble을 명확히 표기하기 위해 density matrix를 이용한다.
+근데, 식 (1) 처럼만 쓰면 $\ket{\phi_n}$들이 coherent state인지, incoherent state 인지 알 방법이 없다. 일반적으로 식 (1) 같이 쓰면 $\ket{\phi_n}$들은 coherent state 이여서 $\ket{\psi}$는 coherent state 의 superposition이 된다. 따라서 ensemble을 명확히 표기하기 위해 density matrix를 이용한다.
 
 
 <br>
