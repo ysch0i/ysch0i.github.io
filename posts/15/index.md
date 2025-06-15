@@ -23,10 +23,10 @@ $$
 \begin{align}\psi &= \sum_n c_n \ket{\phi_n}\end{align}
 $$
 
-에서 $\ket{\phi_n}$ 들을 dephasing 시켜 ensemble을 만든다. 여기서 $\ket{\phi_n}$는 Hamiltonia의 eigenstate이다. 
+에서 $\ket{\phi_n}$ 들을 dephasing 시켜 ensemble을 만든다. 여기서 $\ket{\phi_n}$는 Hamiltonian의 eigenstate이다. 
 
 
-근데, 식 (1) 처럼만 쓰면 $\ket{\phi_n}$들이 coherent state인지, incoherent state 인지 알 방법이 없다. 일반적으로 식 (1)에서 $\psi$는 coherent state $\ket{\phi_n}$의 superposition이다. 따라서 ensemble을 명확히 표기하기 위해 density matrix를 이용한다.
+근데, 식 (1) 처럼만 쓰면 $\ket{\phi_n}$들이 coherent state인지, incoherent state 인지 알 방법이 없다. 일반적으로 식 (1) 같이 쓰면 $\ket{\phi_n}$들은 coherent state이여서 $\psi$는 coherent state 의 superposition이 된다. 따라서 ensemble을 명확히 표기하기 위해 density matrix를 이용한다.
 
 
 <br>
@@ -125,7 +125,7 @@ $$\begin{align}
 로 쓸 수 있다. 따라서,
 
 $$\begin{align}
-\tilde{\rho} = \tilde{\rho}^2
+\tilde{\rho}^2 = \ket{\psi} \braket{\psi | \psi} \bra{\psi} = \tilde{\rho}
 \end{align}$$
 
 가 성립한다. 그러나 ensemble의 경우 식 (17)이 성립하지 않는다. 증명은 간단하므로 생략하겠다. 따라서 식 (17)의 만족 여부를 통해 pure state인지 ensemble인지 구별할 수 있다.
@@ -154,7 +154,7 @@ $$\begin{align}
 \end{bmatrix}
 \end{align}$$
 
-이므로 $\tilde{\rho}^{(i)} = (\tilde{\rho}^{(i)})^2$ 이지만, $\tilde{\rho} \neq \tilde{\rho}$ 이다.
+이므로 $(\tilde{\rho}^{(\lambda)})^2 = \tilde{\rho}^{(\lambda)}$ 이지만, $\tilde{\rho}^2 \neq \tilde{\rho}$ 이다.
 
 
 <br>
