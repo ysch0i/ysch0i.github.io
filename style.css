@@ -1,3 +1,17 @@
+pre code {
+    background-color: #f0f8ff !important; /* 연한 하늘색 */
+    color: #111 !important;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    overflow-x: auto;
+}
+
+/* 특정 언어별 스타일도 커버 */
+code.language-python {
+    background-color: #f0f8ff !important;
+}
+
 a:link,
 a:visited {
   color: black;
@@ -28,14 +42,6 @@ a:active {
   color: #888;
 }
 
-pre code {
-    background-color: #f0f0ff;  
-    color: #333;               
-    padding: 1em;
-    border-radius: 8px;
-    display: block;
-    overflow-x: auto;
-}
 
 
 /*
