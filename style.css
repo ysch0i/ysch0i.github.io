@@ -1,6 +1,12 @@
-code.language-python {
+pre code {
     background-color: #f5f5f5 !important;
+    color: #111 !important;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    overflow-x: auto;
 }
+
 
 a:link,
 a:visited {
