@@ -139,21 +139,16 @@
         
         </head>
         <body class="vscode-body vscode-light">
-            <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <script>
-    window.onload = function() {
-      fetch('https://ysch0i.github.io/header.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        });
-    };
-  </script>
-</head>
+            <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
 <div class="centered-container">
 <div id="header"></div>
+<script>
+  fetch('https://ysch0i.github.io/header.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
 <br>
 <h1 id="marcushushchidsey-theory">Marcus–Hush–Chidsey Theory</h1>
 <p>Marcus 이론의 전기화학 버전. 전기화학 교과서로 많이 사용되는 A. J. Bard (2022) 에서는 Gerischer Model 이라고 부른다.</p>
@@ -256,7 +251,22 @@ i(\eta) = FAC\left[ k_\text{ox}(\eta) - k_\text{red}(\eta)  \right]
 <br>
 <hr>
 <p>2024.12.23 최예성 작성</p>
-<footer class="site-footer"></footer>
+<script src="https://utteranc.es/client.js"
+        repo="ysch0i/ysch0i.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<div id="footer"></div>
+<script>
+  fetch('https://ysch0i.github.io/footer.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    });
+</script>
 </div>
             <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             

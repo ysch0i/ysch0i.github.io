@@ -1,24 +1,15 @@
-<head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <script>
-    window.onload = function() {
-      fetch('https://ysch0i.github.io/header.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        });
-    };
-  </script>
-</head>
-
+<link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
 <div class="centered-container">
-
 <div id="header"></div>
-
-
-
+<script>
+  fetch('https://ysch0i.github.io/header.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
 <br>
+
 
 
 # Marcus–Hush–Chidsey Theory
@@ -227,7 +218,20 @@ $^4$ A. J. Bard, L. R. Faulkner, and H. S. White, *Electrochemical Methods: Fund
 
 2024.12.23 최예성 작성
 
-<footer class="site-footer"></footer>
-
-
+<script src="https://utteranc.es/client.js"
+        repo="ysch0i/ysch0i.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<div id="footer"></div>
+<script>
+  fetch('https://ysch0i.github.io/footer.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    });
+</script>
 </div>

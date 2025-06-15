@@ -139,21 +139,16 @@
         
         </head>
         <body class="vscode-body vscode-light">
-            <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <script>
-    window.onload = function() {
-      fetch('https://ysch0i.github.io/header.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        });
-    };
-  </script>
-</head>
+            <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
 <div class="centered-container">
 <div id="header"></div>
+<script>
+  fetch('https://ysch0i.github.io/header.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
 <br>
 <h1 id="basic-formulas">Basic Formulas</h1>
 <p>맨날 쓰는데 왜 자꾸 까먹지?</p>
@@ -324,7 +319,22 @@ M834 80h400000v40h-400000z"/></svg></span></span></span><span class="vlist-s">�
 <br>
 <hr>
 <p>2024.05.13 최예성 작성</p>
-<footer class="site-footer"></footer>
+<script src="https://utteranc.es/client.js"
+        repo="ysch0i/ysch0i.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<div id="footer"></div>
+<script>
+  fetch('https://ysch0i.github.io/footer.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    });
+</script>
 </div>
             <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             

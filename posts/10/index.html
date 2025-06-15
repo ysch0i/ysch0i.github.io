@@ -139,21 +139,16 @@
         
         </head>
         <body class="vscode-body vscode-light">
-            <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <script>
-    window.onload = function() {
-      fetch('https://ysch0i.github.io/header.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        });
-    };
-  </script>
-</head>
+            <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
 <div class="centered-container">
 <div id="header"></div>
+<script>
+  fetch('https://ysch0i.github.io/header.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
 <br>
 <h1 id="green-function">Green Function</h1>
 <p>양자역학에 Green function을 도입해보자.</p>
@@ -275,7 +270,22 @@ G^+V = G_0^+V + G^+VG_0^+V
 <br>
 <hr>
 <p>2024.11.14 최예성 작성</p>
-<footer class="site-footer"></footer>
+<script src="https://utteranc.es/client.js"
+        repo="ysch0i/ysch0i.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<div id="footer"></div>
+<script>
+  fetch('https://ysch0i.github.io/footer.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    });
+</script>
 </div>
             <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             

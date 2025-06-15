@@ -139,21 +139,16 @@
         
         </head>
         <body class="vscode-body vscode-light">
-            <head>
-  <meta charset="UTF-8" />
-  <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
-  <script>
-    window.onload = function() {
-      fetch('https://ysch0i.github.io/header.html')
-        .then(response => response.text())
-        .then(data => {
-          document.getElementById('header').innerHTML = data;
-        });
-    };
-  </script>
-</head>
+            <link rel="stylesheet" href="https://ysch0i.github.io/style.css" />
 <div class="centered-container">
 <div id="header"></div>
+<script>
+  fetch('https://ysch0i.github.io/header.html')
+    .then(res => res.text())
+    .then(data => {
+      document.getElementById('header').innerHTML = data;
+    });
+</script>
 <br>
 <h1 id="bornoppenheimer-approximation">Born–Oppenheimer Approximation</h1>
 <p>최근 영화로 대중성이 생긴 Julius Robert Oppenheimer. 그가 박사학위를 받은 지 5개월 후, 지도교수 Max Born과 함께 발표한 Born–Oppenheimer approximation에 대해 알아보자. <a href="https://doi.org/10.1002%2Fandp.19273892002">원문</a>을 읽어보진 못했다. 독일어라.</p>
@@ -254,7 +249,22 @@
 <br>
 <hr>
 <p>2024.11.08 최예성 작성</p>
-<footer class="site-footer"></footer>
+<script src="https://utteranc.es/client.js"
+        repo="ysch0i/ysch0i.github.io"
+        issue-term="pathname"
+        label="Comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+<div id="footer"></div>
+<script>
+  fetch('https://ysch0i.github.io/footer.html')
+    .then(res => res.text())
+    .then(html => {
+      document.getElementById('footer').innerHTML = html;
+    });
+</script>
 </div>
             <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
             
