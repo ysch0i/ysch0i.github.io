@@ -222,7 +222,7 @@ $$\begin{align}
 
 를 얻는다. 
 
-수식은 여기서 끝이다. 이제 식 (37)을 만들 수 있는 quantum computer 회로를 설계하면 된다. 여기까지만 보면 식 (37)의 의미가 잘 보이지 않지만 구현된 회로를 보면 무슨 느낌인지 무슨 느낌인지 알 것이다. 회로 구현은 Fourier Transform with Quantum Computer II 에서 다룬다.
+수식은 여기서 끝이다. 이제 식 (37)을 만들 수 있는 quantum computer 회로를 설계하면 된다. 여기까지만 보면 식 (37)의 의미가 잘 보이지 않지만 구현된 회로를 보면 무슨 느낌인지 알 것이다. 회로 구현은 Fourier Transform with Quantum Computer II 에서 다룰 예정이다.
 
 
 <br>
