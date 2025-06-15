@@ -229,7 +229,7 @@ $$\begin{align}
 
 ## References
 
-<sup>1</sup> L. Ruiz-Perez, and J. C. Garcia-Escartin, "“Quantum arithmetic with the quantum Fourier transform”", [Quantum Inf Process](https://doi.org/10.1007/s11128-017-1603-1) **16**, 152 (2017).
+<sup>1</sup> L. Ruiz-Perez, and J. C. Garcia-Escartin, “Quantum arithmetic with the quantum Fourier transform,” [Quantum Inf Process](https://doi.org/10.1007/s11128-017-1603-1) **16**, 152 (2017).
 
 <sup>2</sup> D. Camps, R. Van Beeumen, and C. Yang, "“Quantum Fourier transform revisited”", [Numerical Linear Algebra App](https://doi.org/10.1002/nla.2331) **28**, e2331 (2021).
 
