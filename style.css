@@ -1,5 +1,5 @@
 pre code {
-    background-color: #f0f8ff !important; /* 연한 하늘색 */
+    background-color: #f5f5f5 !important;
     color: #111 !important;
     padding: 1em;
     border-radius: 8px;
@@ -7,10 +7,12 @@ pre code {
     overflow-x: auto;
 }
 
-/* 특정 언어별 스타일도 커버 */
+/* 특정 언어별 스타일도 커버 
 code.language-python {
     background-color: #f0f8ff !important;
 }
+
+*/
 
 a:link,
 a:visited {
