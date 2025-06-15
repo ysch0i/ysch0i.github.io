@@ -54,7 +54,7 @@ $$
 
 
 $$
-\begin{align}\psi^{(\lambda)} = \sum_n c_n^{(\lambda)} \ket{\varphi_n}\end{align}
+\begin{align}\ket{\psi^{(\lambda)}} = \sum_n c_n^{(\lambda)} \ket{\varphi_n}\end{align}
 $$
 
 이다. 이 때, 전체 density matrix를
