@@ -26,13 +26,21 @@
 
 ## 2025
 
+
+
+[17.](https://ysch0i.github.io/posts/15) Fourier Transform with Quantum Computer II
+
+[16.](https://ysch0i.github.io/posts/15) Fourier Transform with Quantum Computer I
+
+[15.](https://ysch0i.github.io/posts/15) Density Matrix II
+
 [14.](https://ysch0i.github.io/posts/14) 뭔가 이렇게 6년이 반복될듯
 
 
 
 ## 2024
 
-[13.](https://ysch0i.github.io/posts/12) Density Matrix
+[13.](https://ysch0i.github.io/posts/12) Density Matrix I
 
 [12.](https://ysch0i.github.io/posts/13) Marcus Theory Formalism
 
