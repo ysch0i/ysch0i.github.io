@@ -193,7 +193,7 @@ $$\begin{align}
 $$\begin{align}
 \omega_N^{2^{n-1}k} 
 &= \exp \left[ i2\pi \sum_{m=1}^n 2^{n-1-m} k_m   \right] \\
-&= e^{i2\pi 2^{n-2}k_1} \cdots e^{i2\pi k_{n-1}} e^{{i2\pi 2^{-1} k_n}} \\
+&= e^{i2\pi 2^{n-2}k_1} \cdots e^{i2\pi k_{n-1}} e^{{i2\pi k_n/2}} \\
 &= e^{i2\pi k_n/2} \\
 &= e^{i2\pi [0.k_n]}
 \end{align}$$
