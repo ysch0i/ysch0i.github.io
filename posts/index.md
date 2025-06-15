@@ -26,7 +26,7 @@
 
 ## 2025
 
-
+[18.](https://ysch0i.github.io/posts/18) Fourier Transform with Quantum Computer II
 
 [17.](https://ysch0i.github.io/posts/17) 다시 Github으로 
 
