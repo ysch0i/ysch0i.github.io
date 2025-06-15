@@ -242,10 +242,3 @@ A(t) = e^{iHt/\hbar} A e^{-iHt/\hbar}
 </script>
 </div>
 
-
-
-
-
-$$\begin{align}
-
-\end{align}$$
