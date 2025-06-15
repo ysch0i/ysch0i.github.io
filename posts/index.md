@@ -28,9 +28,9 @@
 
 
 
-[17.](https://ysch0i.github.io/posts/15) Fourier Transform with Quantum Computer II
+[17.](https://ysch0i.github.io/posts/17) Fourier Transform with Quantum Computer II
 
-[16.](https://ysch0i.github.io/posts/15) Fourier Transform with Quantum Computer I
+[16.](https://ysch0i.github.io/posts/16) Fourier Transform with Quantum Computer I
 
 [15.](https://ysch0i.github.io/posts/15) Density Matrix II
 
