@@ -141,12 +141,12 @@ $$\begin{align}
 \end{align}$$
 
 $$\begin{align}
-j &= 2^{n-1} j_1 + \cdots + j_n \\ 
+j &= 2^{n-1} j_1 + 2^{n-2} j_2 +  \cdots + j_n \\ 
 
 &= \sum_{l=1}^n 2^{n-l} j_l
 \end{align}$$
 
-가 된다. 여기서 $2^n = N$ 이고 $j_i$는 0 또는 1이다. 그리고, 마찬가지로 basis도 이진법으로 표현해보자.
+가 된다. 여기서 $2^n = N$ 이고 $j_l$는 0 또는 1이다. 그리고, 마찬가지로 basis도 이진법으로 표현해보자.
 
 
 $$\begin{align}
@@ -169,7 +169,7 @@ $$\begin{align}
 \end{align}$$
 
 $$\begin{align}
-k &= 2^{n-1} k_1 + \cdots + k_n \\ 
+k &= 2^{n-1} k_1 + 2^{n-2} k_2 +  \cdots + k_n \\ 
 
 &= \sum_{m=1}^n 2^{n-m} k_m
 \end{align}$$
