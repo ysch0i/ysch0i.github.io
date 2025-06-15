@@ -233,7 +233,7 @@ $$\begin{align}
 
 <sup>2</sup> D. Camps, R. Van Beeumen, and C. Yang, “Quantum Fourier transform revisited,” [Numerical Linear Algebra App](https://doi.org/10.1002/nla.2331) **28**, e2331 (2021).
 
-
+<sup>3</sup> Y. M. Rhee, "Quantum Fourier Transform" (2025).
 
 
 <br>
