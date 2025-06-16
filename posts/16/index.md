@@ -153,7 +153,7 @@ $$\begin{align}
 \ket{j} = \ket{j_1 j_2 \cdots j_n} &= \ket{j_1} \ket{j_2} \cdots \ket{j_n} \\ &= \ket{j_1} \otimes \ket{j_2} \otimes \cdots \otimes \ket{j_n}
 \end{align}$$
 
-이를 식 (16), (18)을 식 (13)에 대입하면 
+식 (16), (18)을 식 (13)에 대입하면 
 
 $$\begin{align}
 \ket{k} \mapsto \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} \omega_N^{jk}\ket{j}&=    \frac{1}{\sqrt{N}} \sum_{j_1, \cdots, j_n }^{0, 1} \omega_N^{k\sum_{l=1}^n 2^{n-l} j_l} \ket{j_1} \otimes \cdots \otimes \ket{j_n} \\
