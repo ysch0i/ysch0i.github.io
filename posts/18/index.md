@@ -15,6 +15,14 @@
 
 복잡한건 싫어. 최대한 간단하게 써보자.
 
+## 1. Qubit
+
+## 2. Single-qubit gate
+
+## 3. Controlled gate
+
+
+
 
 <br>
 
