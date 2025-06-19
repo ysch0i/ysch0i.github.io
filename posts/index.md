@@ -26,40 +26,41 @@
 
 ## 2025
 
+[17.](https://ysch0i.github.io/posts/18/) Quantum Logic Gate
 
-[17.](https://ysch0i.github.io/posts/17) 다시 Github으로 
+[17.](https://ysch0i.github.io/posts/17/) 다시 Github으로 
 
-[16.](https://ysch0i.github.io/posts/16) Fourier Transform with Quantum Computer I
+[16.](https://ysch0i.github.io/posts/16/) Fourier Transform with Quantum Computer I
 
-[15.](https://ysch0i.github.io/posts/15) Density Matrix II
+[15.](https://ysch0i.github.io/posts/15/) Density Matrix II
 
-[14.](https://ysch0i.github.io/posts/14) 뭔가 이렇게 6년이 반복될듯
+[14.](https://ysch0i.github.io/posts/14/) 뭔가 이렇게 6년이 반복될듯
 
 
 
 ## 2024
 
-[13.](https://ysch0i.github.io/posts/12) Density Matrix I
+[13.](https://ysch0i.github.io/posts/12/) Density Matrix I
 
-[12.](https://ysch0i.github.io/posts/13) Marcus Theory Formalism
+[12.](https://ysch0i.github.io/posts/13/) Marcus Theory Formalism
 
-[11.](https://ysch0i.github.io/posts/11) Marcus–Hush–Chidsey Theory
+[11.](https://ysch0i.github.io/posts/11/) Marcus–Hush–Chidsey Theory
 
-[10.](https://ysch0i.github.io/posts/10) Green Function
+[10.](https://ysch0i.github.io/posts/10/) Green Function
 
-[9.](https://ysch0i.github.io/posts/9) Fermi’s Golden Rule II
+[9.](https://ysch0i.github.io/posts/9/) Fermi’s Golden Rule II
 
-[8.](https://ysch0i.github.io/posts/8) Scattering State
+[8.](https://ysch0i.github.io/posts/8/) Scattering State
 
-[7.](https://ysch0i.github.io/posts/7) Born–Oppenheimer Approximation
+[7.](https://ysch0i.github.io/posts/7/) Born–Oppenheimer Approximation
 
-[6.](https://ysch0i.github.io/posts/6) Fermi’s Golden Rule I
+[6.](https://ysch0i.github.io/posts/6/) Fermi’s Golden Rule I
 
-[5.](https://ysch0i.github.io/posts/5) Time-dependent Pertubation
+[5.](https://ysch0i.github.io/posts/5/) Time-dependent Pertubation
 
-[4.](https://ysch0i.github.io/posts/4) Basic Formulas
+[4.](https://ysch0i.github.io/posts/4/) Basic Formulas
 
-[3.](https://ysch0i.github.io/posts/3) Potential of an Electrode
+[3.](https://ysch0i.github.io/posts/3/) Potential of an Electrode
 
 [2.](https://ysch0i.github.io/posts/2/GammaFunction) Gamma function
 

@@ -291,9 +291,25 @@ $$\begin{align}
 
 <br>
 
+
+## References
+
+
+<sup>1</sup> M. A. Nielsen, and I. L. Chuang, *Quantum Computation and Quantum Information*, 10th anniversary edition (Cambridge university press, Cambridge, 2010).
+
+
+
+<sup>2</sup> IBM Quantum, “IBM Quantum Learning,” IBM, 2024, https://learning.quantum.ibm.com (accessed June 19, 2025).
+
+
+<sup>3</sup> J. E. Runeson, and J. O. Richardson, “Spin-mapping approach for nonadiabatic molecular dynamics,” [J. Chem. Phys.](https://doi.org/10.1063/1.5100506) **151**, 044119 (2019).
+
+
+<br>
+
 ---
 
-2025.06.00 최예성 작성
+2025.06.20 최예성 작성
 
 
 
