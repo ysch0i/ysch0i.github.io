@@ -209,11 +209,63 @@ RY(\theta) =\exp \left[-\frac{i\theta}{2}  Y \right] \,\,\, \,\,\,\,\,\,\,\,\,RZ
 
 Qubit이 2개 이상일 때는 여러 개의 qubit에 동시에 작용하는 logic gate가 존재한다. 그 중 controlled gate에서는 하나의 qubit의 상태에 따라 다른 qubit에 가해지는 operator가 바뀐다.
 
-위에서 예시로 든 $A$ gate를 이용하여 controlled gate를 만들어 보자.
+위에서 예시로 든 $A$ gate를 이용하여 controlled gate를 만들어 보자. 임의의 single-qubit gate에 대해 controlled gate를 만들 수 있다.
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/18/images/circuit2.svg" width="150px" style="display: block; margin: 0 auto;" />
+</figure>
+
+위의 controlled gate에서 $\ket{x_1}$은 제어 qubit이고 $\ket{x_2}$는 타켓 qubit이다. 만약 제어 qubit $\ket{x_1}$이 $\ket{0}$이면 타겟 qubit $\ket{x_2}$에 $A$ gate가 작용하지 않고, $\ket{x_1}$이 $\ket{1}$이면 $\ket{x_2}$에 $A$ gate가 작용한다. 이를 수식으로 나타내면 아래와 같다. 위의 controlled gate를 $\text{C}A$ gate라 하겠다.
+
+$$\begin{align}
+\text{C}A \ket{x_1x_2}
+
+\end{align}$$
+
+$$\begin{align}
+\text{C}A \ket{00} &= \ket{00} \\
+\text{C}A \ket{01} &= \ket{01} \\
+\text{C}A \ket{10} &= \ket{1} \otimes A\ket{0} = \ket{1} \otimes (p \ket{0} + r\ket{1}) \\
+\text{C}A \ket{11} &= \ket{1} \otimes A\ket{0} = \ket{1} \otimes (q \ket{0} + s\ket{1})
+
+\end{align}$$
+
+
+또한, state를 $4\times 1$ vector로, controlled gate를 $4\times 4$ matrix로 표현할 수 있다.
+
+$$\begin{align}
+
+\text{C}A= \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & p & q \\
+0 & 0 & r & s
+\end{bmatrix}
 
 
 
 
+\end{align}$$
+
+
+
+<br>
+
+
+## Appendix : Bloch sphere
+
+식 (1)에서 우리는 하나의 qubit을 아래와 같이 표현했다.
+
+$$\begin{align}
+\ket{x_1} = a \ket{0} + b \ket{1} = \begin{bmatrix}
+a \\
+b
+\end{bmatrix}
+\end{align}$$
+
+여기서 degree of freedom (DOF) 을 계산해 보자. $a$, $b$는 복소수이므로 각각 DOF 2를 가지고, normalize 조건에서 DOF 1 감소, 전체 phase는 의미가 없으므로 DOF 1 감소해서 총 DOF는 2이다 $(2\times 2 - 1-1 = 2)$.
+
+따라서 하나의 qubit을 반지름이 1인 구 위의 한 점으로 대응시킬 수 있다. 
 
 
 
