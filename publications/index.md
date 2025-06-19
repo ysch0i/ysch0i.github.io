@@ -24,10 +24,12 @@
 
 ## In Daejeon
 
+[2.]() Submitted.
+
 
 ## In Seoul
 
-[1.]() In preparation
+[1.]() In preparation.
 
 
 

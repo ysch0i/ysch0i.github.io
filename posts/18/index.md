@@ -185,7 +185,7 @@ i & 0
 \end{align}$$
 
 
-- Rotation about $x,y,z$-axis : 
+- Rotation about $x,y,z$-axis :
 
 $$\begin{align}
 RX(\theta)=  \exp \left[-\frac{i\theta}{2}  X \right] = \begin{bmatrix}
@@ -200,6 +200,9 @@ $$\begin{align}
 RY(\theta) =\exp \left[-\frac{i\theta}{2}  Y \right] \,\,\, \,\,\,\,\,\,\,\,\,RZ(\theta) =\exp \left[-\frac{i\theta}{2}  Z \right] 
 
 \end{align}$$
+
+
+Rotation gate는 state vector를 Bloch sphere에서 해당 축을 기준으로 회전시킨다는 의미를 가진다 (Appendix 참고).
 
 <br>
 
@@ -265,7 +268,24 @@ b
 
 여기서 degree of freedom (DOF) 을 계산해 보자. $a$, $b$는 복소수이므로 각각 DOF 2를 가지고, normalize 조건에서 DOF 1 감소, 전체 phase는 의미가 없으므로 DOF 1 감소해서 총 DOF는 2이다 $(2\times 2 - 1-1 = 2)$.
 
-따라서 하나의 qubit을 반지름이 1인 구 위의 한 점으로 대응시킬 수 있다. 
+따라서 하나의 qubit을 반지름이 1인 구 위의 한 점으로 대응시킬 수 있다. 대응시키는 방법은 다양하지만, 그 중 Bloch sphere에서는 아래와 같은 방법을 사용한다.
+
+
+$$\begin{align}
+\ket{x_1} = \cos\frac{\theta}{2} \ket{0} +  \sin\frac{\theta}{2} e^{i\varphi}\ket{1}
+\end{align}$$
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/18/images/Bloch_sphere.svg" width="300px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">By <a href="//commons.wikimedia.org/w/index.php?title=User:Smite-Meister&amp;action=edit&amp;redlink=1" class="new" title="User:Smite-Meister (page does not exist)">Smite-Meister</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=5829358">Link</a></figcaption>
+</figure>
+
+
+문헌에 따라 이렇게 하기도 한다.
+
+$$\begin{align}
+\ket{x_1} = \cos\frac{\theta}{2} e^{-i\varphi/2}\ket{0} + \sin\frac{\theta}{2}  e^{i\varphi/2}\ket{1}
+\end{align}$$
 
 
 
@@ -297,11 +317,3 @@ b
 </div>
 
 
-$$\begin{align}
-
-
-\end{align}$$
-<figure style="text-align: center;">
-  <img src="https://ysch0i.github.io/posts/18/images/circuit.svg" width="550px" style="display: block; margin: 0 auto;" />
-  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
-</figure>
