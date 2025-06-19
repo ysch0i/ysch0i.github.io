@@ -159,7 +159,10 @@ ra + sb
 
 Qubit이 2개 이상일 때는 여러 개의 qubit에 동시에 작용하는 logic gate가 존재한다. 그 중 controlled gate에서는 하나의 qubit의 상태에 따라 다른 qubit에 가해지는 operator가 바뀐다.
 
-
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/18/images/circuit.svg" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
+</figure>
 
 
 
