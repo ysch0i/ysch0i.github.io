@@ -151,7 +151,57 @@ ra + sb
 
 가 되고, 이를 그림으로는 아래와 같이 표현한다.
 
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/18/images/circuit.svg" width="150px" style="display: block; margin: 0 auto;" />
+</figure>
 
+아래는 자주 쓰이는 single-qubit gate 이다.
+
+- Hadamard :
+
+$$\begin{align}
+H = \frac{1}{\sqrt{2}} \begin{bmatrix}
+1 & 1 \\
+1 & -1
+\end{bmatrix}
+
+\end{align}$$
+
+
+- Pauli-X,Y,Z :
+
+$$\begin{align}
+X =  \begin{bmatrix}
+0 & 1 \\
+1 & 0
+\end{bmatrix}\,\,\,\,\,\,\,\,\,\,Y = \begin{bmatrix}
+0 & -i \\
+i & 0
+\end{bmatrix}\,\,\,\,\,\,\,\,\,\,Z =  \begin{bmatrix}
+1 & 0 \\
+0 & -1
+\end{bmatrix}
+
+\end{align}$$
+
+
+- Rotation about $x,y,z$-axis : 
+
+$$\begin{align}
+RX(\theta)=  \exp \left[-\frac{i\theta}{2}  X \right] = \begin{bmatrix}
+\cos (\theta/2) & -i\sin(\theta/2) \\
+-i\sin(\theta/2) & \cos(\theta/2)
+\end{bmatrix}
+
+\end{align}$$
+
+$$\begin{align}
+
+RY(\theta) =\exp \left[-\frac{i\theta}{2}  Y \right] \,\,\, \,\,\,\,\,\,\,\,\,RZ(\theta) =\exp \left[-\frac{i\theta}{2}  Z \right] 
+
+\end{align}$$
+
+<br>
 
 
 
@@ -159,10 +209,10 @@ ra + sb
 
 Qubit이 2개 이상일 때는 여러 개의 qubit에 동시에 작용하는 logic gate가 존재한다. 그 중 controlled gate에서는 하나의 qubit의 상태에 따라 다른 qubit에 가해지는 operator가 바뀐다.
 
-<figure style="text-align: center;">
-  <img src="https://ysch0i.github.io/posts/18/images/circuit.svg" width="550px" style="display: block; margin: 0 auto;" />
-  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
-</figure>
+위에서 예시로 든 $A$ gate를 이용하여 controlled gate를 만들어 보자.
+
+
+
 
 
 
@@ -199,3 +249,7 @@ $$\begin{align}
 
 
 \end{align}$$
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/18/images/circuit.svg" width="550px" style="display: block; margin: 0 auto;" />
+  <figcaption style="margin-top: 8px; font-size: 0.9em; color: #555;">From R. A. Marcus (1965).</figcaption>
+</figure>
