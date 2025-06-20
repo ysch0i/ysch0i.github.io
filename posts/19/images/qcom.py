@@ -23,6 +23,7 @@ qc.append(cu_gate3, [qr3[0], qr1[0]])
 qc.h(1) 
 qc.append(cu_gate2, [qr3[0], qr2[0]])
 qc.h(2) 
-fig = qc.draw("mpl")
 qc.swap(0, 2)
+fig = qc.draw("mpl")
+
 fig.savefig("circuit4.svg")
