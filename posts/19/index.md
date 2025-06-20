@@ -67,7 +67,7 @@ $$\begin{align}
 \ket{k_n} \mapsto \ket{0} + e^{i2\pi [0.k_1 k_2 \cdots k_n] } \ket{1}    
 \end{align}$$
 
-가 된다(상수는 생략). 즉, 우리는 퀀텀 컴퓨터 회로를 통해 첫 번째 qubit을 식 (8)로, $\cdots$ $n$ 번째 qubit을 식 (10)으로 변환해야 한다.
+가 된다(정규화 상수 생략). 즉, 우리는 퀀텀 컴퓨터 회로를 통해 첫 번째 qubit을 식 (8)로, $\cdots$ $n$ 번째 qubit을 식 (10)으로 변환해야 한다.
 
 하지만, 식 (8)-(10)의 변환은 어렵다. 따라서 quantum Fourier transform 에서는 아래와 같은 변환을 한 뒤, SWAP gate로 순서를 뒤집는다.
 
@@ -124,15 +124,73 @@ a-b
 \end{bmatrix}
 \end{align}$$
 
-이다. 이게 뭘까? 바로 Hadamard gate 이다. 따라서 $n$ 번째 qubit의 변환은 Hadamard gate 하나로 표현된다.
+이다. 이게 뭘까? 바로 Hadamard gate 이다. 따라서 $n$ 번째 qubit의 변환은 Hadamard gate 하나로 표현된다 (앞으로 정규화 상수 생략).
+
+$$\begin{align}
+H \ket{k_n} = \ket{0} + e^{i2\pi [0.k_n]} \ket{1} 
+\end{align}$$
+
 
 
 <figure style="text-align: center;">
-  <img src="https://ysch0i.github.io/posts/19/images/circuit.svg" width="150px" style="display: block; margin: 0 auto;" />
+  <img src="https://ysch0i.github.io/posts/19/images/circuit1.svg" width="150px" style="display: block; margin: 0 auto;" />
 </figure>
 
 
+비슷한 방식으로 $n-1$ 번째 qubit을 변환해보자. 
 
+
+$$\begin{align}
+\ket{k_{n-1}} \mapsto \ket{0} + e^{i2\pi [0.k_{n-1}k_n]} \ket{1} 
+\end{align}$$
+
+일단 먼저 Hadamard gate를 통과시키면,
+
+$$\begin{align}
+H \ket{k_{n-1}} = \ket{0} + e^{i2\pi [0.k_{n-1}]} \ket{1} 
+\end{align}$$
+
+가 된다. 이제
+
+$$\begin{align}
+ \ket{0} + e^{i2\pi [0.k_{n-1}]} \ket{1} \mapsto \ket{0} + e^{i2\pi [0.k_{n-1}k_n]} \ket{1} 
+\end{align}$$
+
+을 해주면 된다. 앞에서와 마찬가지로 $k_n$에 0, 1을 대입해보자. 
+
+$k_n = 0$이면,
+
+$$\begin{align}
+ \ket{0} + e^{i2\pi [0.k_{n-1}]} \ket{1} \mapsto \ket{0} + e^{i2\pi [0.k_{n-1}]} \ket{1} 
+\end{align}$$
+
+
+아무 변화가 없다. $k_n = 1$이면,
+
+$$\begin{align}
+ \ket{0} + e^{i2\pi [0.k_{n-1}]} \ket{1} &\mapsto \ket{0} + e^{i2\pi [0.k_{n-1}1]} \ket{1} \\
+ &= \ket{0} + e^{i2\pi ([0.k_{n-1}] + 2^{-2})} \ket{1} \\
+&= \ket{0} + e^{i2\pi[0.k_{n-1}]} e^{i2\pi / 2^2} \ket{1} \\
+\end{align}$$
+
+즉, 식 (28)의 변환은 $\ket{1}$에 $e^{i2\pi / 2^2}$ 가 곱해지므로 아래와 같은 행렬 $R_2$로 표현할 수 있다.
+
+$$\begin{align}
+R_2 = \begin{bmatrix}
+1 & 0 \\
+0 & e^{i2\pi / 2^2}
+\end{bmatrix}
+
+\end{align}$$
+
+
+식 (25), (28)을 종합하면, $n-1$ 번째 qubit은 $n$ 번째 qubit이 $\ket{0}$이면, 아무런 변화가 없고, $n$ 번째 qubit이 $\ket{1}$이면, $R_2$ gate가 가해진다. 이게 뭘까? 바로 controlled gate 이다. 
+
+따라서 식 (23)의 Hadamard gate, 식 (24)의 controlled gate 를 종합하면 $n-1$ 번째 qubit의 변환은 아래와 같이 표현된다 ($n$ 번째 qubit의 변환도 같이 표현).
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/19/images/circuit2.svg" width="150px" style="display: block; margin: 0 auto;" />
+</figure>
 
 
 

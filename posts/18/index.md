@@ -157,6 +157,17 @@ ra + sb
 
 아래는 자주 쓰이는 single-qubit gate 이다.
 
+- Identity : 
+
+$$\begin{align}
+I = \begin{bmatrix}
+1 & 0 \\
+0 & 1
+\end{bmatrix}
+
+\end{align}$$
+
+
 - Hadamard :
 
 $$\begin{align}
