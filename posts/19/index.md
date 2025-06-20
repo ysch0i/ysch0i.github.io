@@ -199,15 +199,179 @@ R_2 = \begin{bmatrix}
   <img src="https://ysch0i.github.io/posts/19/images/circuit3.svg" width="450px" style="display: block; margin: 0 auto;" />
 </figure>
 
-가 된다. 마지막으로 SWAP gate을 통해 qubit의 순서를 반대로 바꿔주면 quantum Fourier transform 회로가 완성된다.
+가 된다. 여기서 $R_k$ gate는
+
+$$\begin{align}
+R_k = \begin{bmatrix}
+1 & 0 \\
+0 & e^{i2\pi / 2^k}
+\end{bmatrix}
+
+\end{align}$$
+
+
+이다. 마지막으로 SWAP gate을 통해 qubit의 순서를 반대로 바꿔주면 quantum Fourier transform 회로가 완성된다.
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/19/images/circuit4.svg" width="500px" style="display: block; margin: 0 auto;" />
+</figure>
+
+<br>
 
 
 
+## 3. 구현
+
+위에서 살펴본 회로를 통해 실제로 3-qubit system에서 quantum Fourier transform을 하는 과정을 알아보자. 사실 3-qubit이면 데이터가 8개라 Fourier transform이라 하기 민망하긴 하다. 그래도 시각화를 위해 3-qubit system을 사용한다.
+
+우리의 목표는 데이터 $x_0$, $x_1$, $\cdots$, $x_7$이 주어졌을 때, discrete Fourier transform된 데이터 $\xi_0$, $\xi_1$, $\cdots$, $\xi_7$를 얻는 것이다.
 
 
-## 3. 
+$$\begin{align}
+\begin{bmatrix}
+x_0 \\
+x_1 \\
+\vdots \\
+x_7
+\end{bmatrix}  \mapsto 
+\begin{bmatrix}
+\xi_0 \\ \xi_1 \\  \vdots \\ \xi_7
+\end{bmatrix}  
+\end{align}$$
 
 
+IBM의 qskit package를 사용하여 quantum Fourier transform을 구현해보겠다. 먼저, 초기의 상태를 
+
+
+$$\begin{align}
+\ket{x}&=x_0 \ket{0} + x_1 \ket{1} + \cdots x_7 \ket{7} \\
+&= x_0 \ket{000} + x_1 \ket{001} + \cdots x_7 \ket{111}
+\end{align}$$
+
+로 initialize 한다. 여기서는 $[x_0, x_1, \cdots, x_7] = [1,2,\cdots 8]$로 initialize 하였다. 
+
+```python
+from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, transpile
+from qiskit_aer import AerSimulator
+from qiskit.circuit.library import UnitaryGate
+from qiskit.quantum_info import Statevector, SparsePauliOp
+from qiskit.visualization import plot_histogram, plot_bloch_multivector
+import numpy as np
+import matplotlib.pyplot as plt
+
+fSignal = [1, 2, 3, 4, 5, 6, 7, 8]
+normSignal = np.linalg.norm(fSignal)
+fSignal /= normSignal
+
+prepared_statevector = Statevector(fSignal)
+
+qr1 = QuantumRegister(1, name="|k1⟩")
+qr2 = QuantumRegister(1, name="|k2⟩")
+qr3 = QuantumRegister(1, name="|k3⟩")
+cbits = ClassicalRegister(3, "c")
+qc = QuantumCircuit(qr1, qr2, qr3, cbits)
+qc.initialize(prepared_statevector, range(0,3))
+
+qc.measure(qr1, cbits[0])
+qc.measure(qr2, cbits[1])
+qc.measure(qr3, cbits[2])
+
+simulator = AerSimulator()
+qc= transpile(qc, simulator)
+result = simulator.run(qc, shots=10000).result()
+
+counts = result.get_counts(qc)
+fig = plot_histogram(counts)
+fig.savefig("hist1.svg")
+```
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/19/images/hist1.svg" width="500px" style="display: block; margin: 0 auto;" />
+</figure>
+
+그 결과 각 state가 나타날 확률이 $|x_i|^2$에 비례하는 것을 확인 할 수 있었다.
+
+이후, 위에서 구현한 회로를 구성한 뒤, 각 state가 나타날 확률을 다시 측정한다.
+
+```python
+U2 = np.array([[1, 0], [0, np.exp(1j*2*np.pi/2**2)]])
+my_gate2 = UnitaryGate(U2, label="R2")
+cu_gate2 = my_gate2.control()
+
+U3 = np.array([[1, 0], [0, np.exp(1j*2*np.pi/2**3)]])
+my_gate3 = UnitaryGate(U3, label="R3")
+cu_gate3 = my_gate3.control()
+
+qc.swap(0, 2)
+
+qc.h(qr1[0]) 
+qc.append(cu_gate2, [qr2[0], qr1[0]])
+qc.append(cu_gate3, [qr3[0], qr1[0]])
+qc.h(qr2[0]) 
+qc.append(cu_gate2, [qr3[0], qr2[0]])
+qc.h(qr3[0]) 
+```
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/19/images/hist2.svg" width="500px" style="display: block; margin: 0 auto;" />
+</figure>
+
+
+위의 그림에서 각 state가 나타날 확률이 $|\xi_i|^2$을 의미한다. 결과가 맞는지 확인하기 위해 classical 컴퓨터의 discrete Fourier transform과 비교해보자. 같은 signal에 대해 discrete Fourier transform을 진행하였을 때 결과는 아래 그림과 같다.
+
+```python
+omega = np.exp(1j*2*np.pi/8)
+dft = [0,0,0,0,0,0,0,0]
+
+for k in range(8):
+    for j in range(8):
+        dft[k] += omega**(j*k)*fSignal[j]
+
+plt.bar(range(len(np.abs(dft))), np.abs(dft))
+plt.savefig("hist3.svg")
+```
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/19/images/hist3.svg" width="500px" style="display: block; margin: 0 auto;" />
+</figure>
+
+Quantum Fourier transform이 discrete Fourier transform과 같은 결과가 나왔음을 확인 할 수 있다. 
+
+참고로, qskit은 일반적으로 쓰는 노테이션과 qubit의 순서가 반대이다. 여기서는 일반적인 노테이션을 따라가기 위해 전체 회로 앞뒤에 swap gate를 넣었다. 전체 python 코드는 [여기](https://ysch0i.github.io/posts/19/images/qft_yschoi.py)에서 다운로드 할 수 있다.
+
+<br>
+
+## 4. 시간 복잡도
+
+Dicrete Fourier transform 에서는 
+
+$$\begin{align}
+\begin{bmatrix}
+\xi_0 \\ \xi_1 \\ \xi_2\\ \vdots \\ \xi_{N-1}
+\end{bmatrix}  =\frac{1}{\sqrt{N}} \begin{bmatrix}
+1 & 1 & 1               &  \cdots & 1 \\
+1 & \omega & \omega^2      &  \cdots    &\omega ^{N-1}        \\
+1 & \omega^2 & \omega^4 &  \cdots &\omega^{2(N-1)} \\
+\vdots & \vdots & \vdots & \ddots & \vdots  \\
+1 & \omega ^{N-1}  & \omega^{2(N-1)} & \cdots &\omega^{(N-1)(N-1)}
+
+\end{bmatrix} \begin{bmatrix}
+x_0 \\
+x_1 \\
+x_2 \\
+\vdots \\
+x_{N-1}
+\end{bmatrix} 
+\end{align}$$
+
+를 계산하면 된다. 단순히 위의 행렬 연산을 한다면 시간 복잡도는 $O(N^2)$ 이고, FFT algorithm을 사용한다면 시간 복잡도는 $O(N\log N)$ 이 된다.
+
+
+퀀텀 컴퓨터에서 시간 복잡도는 일반적으로 순차적으로 실행되어야 하는 gate layor의 개수가 된다. Quantum Fourier transform 회로를 보면 병렬로 연산할 수 있는 gate가 없으므로 단순히 gate의 개수가 시간복잡도가 된다.
+
+위의 회로에서 qubit의 개수가 $n$개 라면 게이트의 수는 $n(n+1)/2$ 개 이므로 시간 복잡도는 $O(n^2)$ 이 된다. 이 때, $N = 2^n$ ($N$개의 데이터를 $n$개의 qubit으로 표현) 이므로 시간 복잡도를 $N$으로 나타내면 $O((\log N)^2)$이다.
+
+정리하자면 classical 컴퓨터의 FFT는 $O(N\log N)$, 퀀텀 컴퓨터의 quantum Fourier transform은 $O((\log N)^2)$으로 퀀텀 컴퓨터가 어머어마하게 빠르다는 것을 알 수 있다.
 
 
 
