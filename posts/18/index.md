@@ -251,6 +251,35 @@ $$\begin{align}
 \end{align}$$
 
 
+## 4. Swap gate
+
+마지막으로 간단하게 swap gate에 대해 알아보자. Swap gate는 two-qubit gate로, 두 qubit을 교환한다. 
+
+
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/18/images/circuit3.svg" width="150px" style="display: block; margin: 0 auto;" />
+</figure>
+
+$$\begin{align}
+\text{SWAP} \ket{00} &= \ket{00} \\
+\text{SWAP} \ket{01} &= \ket{10} \\
+\text{SWAP} \ket{10} &= \ket{01}  \\
+\text{SWAP} \ket{11} &= \ket{11} 
+
+\end{align}$$
+
+
+$$\begin{align}
+
+\text{SWAP}= \begin{bmatrix}
+1 & 0 & 0 & 0 \\
+0 & 0 & 1 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & 0 & 1
+\end{bmatrix}
+\end{align}$$
+
+
 
 <br>
 

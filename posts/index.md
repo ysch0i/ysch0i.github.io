@@ -26,6 +26,9 @@
 
 ## 2025
 
+
+[19.](https://ysch0i.github.io/posts/19/) Fourier Transform with Quantum Computer II
+
 [18.](https://ysch0i.github.io/posts/18/) Quantum Logic Gate
 
 [17.](https://ysch0i.github.io/posts/17/) 다시 Github으로 
