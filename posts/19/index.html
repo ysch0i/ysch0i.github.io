@@ -350,8 +350,8 @@ M347 1759 V0 H263 V1759 v1800 v1759 h84z"/></svg></span></span></span><span clas
 <pre><code class="language-python"><span class="hljs-keyword">from</span> qiskit <span class="hljs-keyword">import</span> QuantumCircuit, QuantumRegister, ClassicalRegister, transpile
 <span class="hljs-keyword">from</span> qiskit_aer <span class="hljs-keyword">import</span> AerSimulator
 <span class="hljs-keyword">from</span> qiskit.circuit.library <span class="hljs-keyword">import</span> UnitaryGate
-<span class="hljs-keyword">from</span> qiskit.quantum_info <span class="hljs-keyword">import</span> Statevector, SparsePauliOp
-<span class="hljs-keyword">from</span> qiskit.visualization <span class="hljs-keyword">import</span> plot_histogram, plot_bloch_multivector
+<span class="hljs-keyword">from</span> qiskit.quantum_info <span class="hljs-keyword">import</span> Statevector
+<span class="hljs-keyword">from</span> qiskit.visualization <span class="hljs-keyword">import</span> plot_histogram
 <span class="hljs-keyword">import</span> numpy <span class="hljs-keyword">as</span> np
 <span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt
 
@@ -420,7 +420,7 @@ plt.savefig(<span class="hljs-string">&quot;hist3.svg&quot;</span>)
   <img src="https://ysch0i.github.io/posts/19/images/hist3.svg" width="500px" style="display: block; margin: 0 auto;" />
 </figure>
 <p>Quantum Fourier transform이 discrete Fourier transform과 같은 결과가 나왔음을 확인 할 수 있다.</p>
-<p>참고로, qskit은 일반적으로 쓰는 노테이션과 qubit의 순서가 반대이다. 여기서는 일반적인 노테이션을 따라가기 위해 전체 회로 앞뒤에 swap gate를 넣었다. 전체 python 코드는 <a href="https://ysch0i.github.io/posts/19/images/qft_yschoi.py">여기</a>에서 다운로드 할 수 있다.</p>
+<p>참고로, qiskit은 일반적으로 쓰는 노테이션과 qubit의 순서가 반대이다. 여기서는 일반적인 노테이션을 따라가기 위해 전체 회로 앞뒤에 swap gate를 넣었다. 전체 python 코드는 <a href="https://ysch0i.github.io/posts/19/images/qft_yschoi.py">여기</a>에서 다운로드 할 수 있다.</p>
 <br>
 <h2 id="4-시간-복잡도">4. 시간 복잡도</h2>
 <p>Dicrete Fourier transform 에서는</p>

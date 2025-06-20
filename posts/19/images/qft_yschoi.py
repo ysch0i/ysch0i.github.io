@@ -31,7 +31,7 @@ U3 = np.array([[1, 0], [0, np.exp(1j*2*np.pi/2**3)]])       # R3 gate
 my_gate3 = UnitaryGate(U3, label="R3")
 cu_gate3 = my_gate3.control()
 
-qc.swap(0, 2)                                               # for qskit qubit ordering
+qc.swap(0, 2)                                               # for qiskit qubit ordering
 
 qc.h(qr1[0]) 
 qc.append(cu_gate2, [qr2[0], qr1[0]])

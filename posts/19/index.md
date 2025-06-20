@@ -254,8 +254,8 @@ $$\begin{align}
 from qiskit import QuantumCircuit, QuantumRegister, ClassicalRegister, transpile
 from qiskit_aer import AerSimulator
 from qiskit.circuit.library import UnitaryGate
-from qiskit.quantum_info import Statevector, SparsePauliOp
-from qiskit.visualization import plot_histogram, plot_bloch_multivector
+from qiskit.quantum_info import Statevector
+from qiskit.visualization import plot_histogram
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -337,7 +337,7 @@ plt.savefig("hist3.svg")
 
 Quantum Fourier transform이 discrete Fourier transform과 같은 결과가 나왔음을 확인 할 수 있다. 
 
-참고로, qskit은 일반적으로 쓰는 노테이션과 qubit의 순서가 반대이다. 여기서는 일반적인 노테이션을 따라가기 위해 전체 회로 앞뒤에 swap gate를 넣었다. 전체 python 코드는 [여기](https://ysch0i.github.io/posts/19/images/qft_yschoi.py)에서 다운로드 할 수 있다.
+참고로, qiskit은 일반적으로 쓰는 노테이션과 qubit의 순서가 반대이다. 여기서는 일반적인 노테이션을 따라가기 위해 전체 회로 앞뒤에 swap gate를 넣었다. 전체 python 코드는 [여기](https://ysch0i.github.io/posts/19/images/qft_yschoi.py)에서 다운로드 할 수 있다.
 
 <br>
 
