@@ -195,7 +195,11 @@ R_2 = \begin{bmatrix}
 
 이렇게 계속 반복하면 된다. 예들 들어 qubit이 3개라면 
 
+<figure style="text-align: center;">
+  <img src="https://ysch0i.github.io/posts/19/images/circuit3.svg" width="450px" style="display: block; margin: 0 auto;" />
+</figure>
 
+가 된다. 마지막으로 SWAP gate을 통해 qubit의 순서를 반대로 바꿔주면 quantum Fourier transform 회로가 완성된다.
 
 
 
