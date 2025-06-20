@@ -137,7 +137,7 @@ H \ket{k_n} = \ket{0} + e^{i2\pi [0.k_n]} \ket{1}
 </figure>
 
 
-비슷한 방식으로 $n-1$ 번째 qubit을 변환해보자. 
+다음으로 $n-1$ 번째 qubit을 변환해보자. 
 
 
 $$\begin{align}
@@ -189,8 +189,15 @@ R_2 = \begin{bmatrix}
 따라서 식 (23)의 Hadamard gate, 식 (24)의 controlled gate 를 종합하면 $n-1$ 번째 qubit의 변환은 아래와 같이 표현된다 ($n$ 번째 qubit의 변환도 같이 표현).
 
 <figure style="text-align: center;">
-  <img src="https://ysch0i.github.io/posts/19/images/circuit2.svg" width="150px" style="display: block; margin: 0 auto;" />
+  <img src="https://ysch0i.github.io/posts/19/images/circuit2.svg" width="300px" style="display: block; margin: 0 auto;" />
 </figure>
+
+
+이렇게 계속 반복하면 된다. 예들 들어 qubit이 3개라면 
+
+
+
+
 
 
 
