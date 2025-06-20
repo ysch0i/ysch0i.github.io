@@ -22,13 +22,10 @@
 [Fourier Transform with Quantum Computer I](https://ysch0i.github.io/posts/16/) 에서 우리는 아래와 같은 basis transform을 해야 한다는 것을 알았다.
 
 $$\begin{align}
-\ket{k} \mapsto \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} \omega_N^{jk} \ket{j}
+\ket{k} &\mapsto \frac{1}{\sqrt{N}} \sum_{j=0}^{N-1} \omega_N^{jk} \ket{j} \\
+&= \frac{1}{\sqrt{N}} \left(\ket{0} + e^{i2\pi [0.k_n]} \ket{1}      \right) \otimes \left(\ket{0} + e^{i2\pi [0.k_{n-1}k_n]} \ket{1}      \right) \otimes \cdots \otimes \left(\ket{0} + e^{i2\pi [0.k_1 k_2 \cdots k_n]  } \ket{1}      \right)
 \end{align}$$
 
-$$\begin{align}
-\ket{k} &\mapsto 
-\frac{1}{\sqrt{N}} \left(\ket{0} + e^{i2\pi [0.k_n]} \ket{1}      \right) \otimes \left(\ket{0} + e^{i2\pi [0.k_{n-1}k_n]} \ket{1}      \right) \otimes \cdots \otimes \left(\ket{0} + e^{i2\pi [0.k_1 k_2 \cdots k_n]  } \ket{1}      \right)
-\end{align}$$
 
 여기서 $\omega_N = e^{i2\pi/N}$, $k$는 $0$부터 $N-1$까지의 범위를 가지는 정수, $k_j$는 0 또는 1이며 아래의 식을 만족한다.
 
@@ -72,14 +69,14 @@ $$\begin{align}
 하지만, 식 (8)-(10)의 변환은 어렵다. 따라서 quantum Fourier transform 에서는 아래와 같은 변환을 한 뒤, SWAP gate로 순서를 뒤집는다.
 
 $$\begin{align}
-\ket{k_1} \mapsto \ket{0} + e^{i2\pi [0.k_1 k_2 \cdots k_n] } \ket{1}    
+\ket{k_1} \mapsto \ket{0} + e^{i2\pi [0.k_1 k_2 k_3 \cdots k_n] } \ket{1}    
 
 
 
 \end{align}$$
 
 $$\begin{align}
-\ket{k_2} \mapsto \ket{0} + e^{i2\pi [0.k_1 k_2 \cdots k_{n-1}] } \ket{1}   
+\ket{k_2} \mapsto \ket{0} + e^{i2\pi [0.k_2 k_3 \cdots k_n] } \ket{1}   
 \end{align}$$
 
 $$\cdots$$
