@@ -53,7 +53,7 @@ result = simulator.run(qc, shots=10000).result()
 
 counts = result.get_counts(qc)
 fig = plot_histogram(counts)
-fig.savefig("hist2.svg")
+# fig.savefig("hist2.svg")
 
 
 # DFT
@@ -64,8 +64,10 @@ for k in range(8):
     for j in range(8):
         dft[k] += omega**(j*k)*fSignal[j]
 
+
+xi_square = (np.abs(dft))**2
 plt.figure()
-plt.bar(range(len(np.abs(dft))), np.abs(dft))
-plt.savefig("hist3.svg")
+plt.bar(range(len(xi_square)), xi_square)
+# plt.savefig("hist3.svg")
 
 

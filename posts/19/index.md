@@ -66,7 +66,7 @@ $$\begin{align}
 
 가 된다(정규화 상수 생략). 즉, 우리는 퀀텀 컴퓨터 회로를 통해 첫 번째 qubit을 식 (8)로, $\cdots$ $n$ 번째 qubit을 식 (10)으로 변환해야 한다.
 
-하지만, 식 (8)-(10)의 변환은 어렵다. 따라서 quantum Fourier transform 에서는 아래와 같은 변환을 한 뒤, SWAP gate로 순서를 뒤집는다.
+하지만, 식 (8)-(10)의 변환은 어렵다. 따라서 quantum Fourier transform 에서는 아래와 같은 변환을 한 뒤, swap gate로 순서를 뒤집는다.
 
 $$\begin{align}
 \ket{k_1} \mapsto \ket{0} + e^{i2\pi [0.k_1 k_2 k_3 \cdots k_n] } \ket{1}    
@@ -237,7 +237,7 @@ x_7
 \end{align}$$
 
 
-IBM의 qskit package를 사용하여 quantum Fourier transform을 구현해보겠다. 먼저, 초기의 상태를 
+IBM의 [qiskit](https://www.ibm.com/quantum/qiskit) package를 사용하여 quantum Fourier transform을 구현해보겠다. 먼저, 초기의 상태를 
 
 
 $$\begin{align}
@@ -366,7 +366,7 @@ x_{N-1}
 
 퀀텀 컴퓨터에서 시간 복잡도는 일반적으로 순차적으로 실행되어야 하는 gate layor의 개수가 된다. Quantum Fourier transform 회로를 보면 병렬로 연산할 수 있는 gate가 없으므로 단순히 gate의 개수가 시간복잡도가 된다.
 
-위의 회로에서 qubit의 개수가 $n$개 라면 게이트의 수는 $n(n+1)/2$ 개 이므로 시간 복잡도는 $O(n^2)$ 이 된다. 이 때, $N = 2^n$ ($N$개의 데이터를 $n$개의 qubit으로 표현) 이므로 시간 복잡도를 $N$으로 나타내면 $O((\log N)^2)$이다.
+위의 회로에서 qubit의 개수가 $n$개 라면 gate의 수는 $n(n+1)/2$ 개 이므로 시간 복잡도는 $O(n^2)$ 이 된다. 이 때, $N = 2^n$ ($N$개의 데이터를 $n$개의 qubit으로 표현) 이므로 시간 복잡도를 $N$으로 나타내면 $O((\log N)^2)$이다.
 
 정리하자면 classical 컴퓨터의 FFT는 $O(N\log N)$, 퀀텀 컴퓨터의 quantum Fourier transform은 $O((\log N)^2)$으로 퀀텀 컴퓨터가 어머어마하게 빠르다는 것을 알 수 있다.
 
