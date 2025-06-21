@@ -207,7 +207,7 @@ R_k = \begin{bmatrix}
 \end{align}$$
 
 
-이다. 마지막으로 SWAP gate을 통해 qubit의 순서를 반대로 바꿔주면 quantum Fourier transform 회로가 완성된다.
+이다. 마지막으로 swap gate을 통해 qubit의 순서를 반대로 바꿔주면 quantum Fourier transform 회로가 완성된다.
 
 <figure style="text-align: center;">
   <img src="https://ysch0i.github.io/posts/19/images/circuit4.svg" width="500px" style="display: block; margin: 0 auto;" />
@@ -314,7 +314,7 @@ qc.h(qr3[0])
 </figure>
 
 
-위의 그림에서 각 state가 나타날 확률이 $|\xi_i|^2$을 의미한다. 결과가 맞는지 확인하기 위해 classical 컴퓨터의 discrete Fourier transform과 비교해보자. 같은 signal에 대해 discrete Fourier transform을 진행하였을 때 결과는 아래 그림과 같다.
+위의 그림에서 각 state가 나타날 확률이 $|\xi_i|^2$을 의미한다. 결과가 맞는지 확인하기 위해 classical 컴퓨터의 discrete Fourier transform과 비교해보자. 같은 signal에 대해 discrete Fourier transform을 진행하였을 때 $|\xi_i|^2$은 아래 그림과 같다.
 
 ```python
 omega = np.exp(1j*2*np.pi/8)
