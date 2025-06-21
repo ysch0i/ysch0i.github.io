@@ -410,7 +410,9 @@ dft = [<span class="hljs-number">0</span>,<span class="hljs-number">0</span>,<sp
     <span class="hljs-keyword">for</span> j <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(<span class="hljs-number">8</span>):
         dft[k] += omega**(j*k)*fSignal[j]
 
-plt.bar(<span class="hljs-built_in">range</span>(<span class="hljs-built_in">len</span>(np.<span class="hljs-built_in">abs</span>(dft))), np.<span class="hljs-built_in">abs</span>(dft))
+xi_square = (np.<span class="hljs-built_in">abs</span>(dft))**<span class="hljs-number">2</span>
+plt.figure()
+plt.bar(<span class="hljs-built_in">range</span>(<span class="hljs-built_in">len</span>(xi_square)), xi_square)
 plt.savefig(<span class="hljs-string">&quot;hist3.svg&quot;</span>)
 </code></pre>
 <figure style="text-align: center;">
