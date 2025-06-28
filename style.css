@@ -1,0 +1,49 @@
+pre code {
+    background-color: #f5f5f5 !important;
+    color: #111 !important;
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+    overflow-x: auto;
+}
+
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+
+a:active {
+  color: red;
+}
+
+.centered-container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/*
+#cusdis_thread iframe {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+
+
+iframe.utterances-frame {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+*/
